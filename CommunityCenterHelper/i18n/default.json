@@ -2,82 +2,82 @@
 	/***** Suggestions *****/
 	
 	// Crops
-	"seasonalCrop": "Grow seeds from {{seedShop}} in {{season}}{{startingYear}}{{qualityCrop}}",
-	"growSeeds": "Grow {{seeds}}{{qualityCrop}}",
-	"startingYear": " (starting Year {{num}})", // included if seeds only become available starting a certain year
-	"qualityCrop": " (w/ fertilizer)", // included if higher quality is required
+	"seasonalCrop": "ปลูกจากเมล็ด ซื้อที่ {{seedShop}} ใน {{season}}{{startingYear}}{{qualityCrop}}",
+	"growSeeds": "ปลูก {{seeds}}{{qualityCrop}}",
+	"startingYear": " (พบได้ในปี {{num}})", // included if seeds only become available starting a certain year
+	"qualityCrop": " (จำเป็นต้องใส่ปุ๋ย)", // included if higher quality is required
 	
 	// Foraging
-	"seasonalForage": "Forage in {{season}}",
-	"locationalForage": "Forage {{location}}",
-	"seasonalLocationalForage": "Forage in {{season}} {{location}}",
-	"salmonberryForage": "Forage from bushes Spring 15-18",
+	"seasonalForage": "หาได้ในฤดู {{season}}",
+	"locationalForage": "หาได้ที่ {{location}}",
+	"seasonalLocationalForage": "หาได้ในฤดู {{season}} {{location}}",
+	"salmonberryForage": "หาได้ตามพุ่มไม้ในฤดูใบไม้ผลิ วันที่ 15-18",
 	
 	// Tilling
-	"generalTilling": "Till dirt",
-	"seasonalTilling": "Tilling in {{season}}",
-	"locationalTilling": "Tilling {{location}}",
-	"artifactDigging": "Dig up Artifact Spots (\"worms\")",
-	"locationalArtifact": "Dig up Artifact Spots {{location}}",
+	"generalTilling": "ขุดจากพื้นดิน",
+	"seasonalTilling": "ขุดได้ใน {{season}}",
+	"locationalTilling": "ขุดได้ที่ {{location}}",
+	"artifactDigging": "ขุดจากจุดที่พบ Artifact (\"หนอน\")",
+	"locationalArtifact": "ขุดจากจุดที่พบ Artifact ที่ {{location}}",
 	
 	// Mining
-	"hitRocks": "Hit rocks with {{pickaxe}}",
-	"hitRocksInLocation": "Break rocks {{location}}",
+	"hitRocks": "ทุบก้อนหินด้วย {{pickaxe}}",
+	"hitRocksInLocation": "ทำลายก้อนหิน ที่ {{location}}",
 	
 	// Fishing
-	"fishBase": "Fish {{water}}, {{extraLinebreak}}{{time}}{{weather}}, {{season}}",
+	"fishBase": "ปลา {{water}}, {{extraLinebreak}}{{time}}{{weather}}, {{season}}",
 	// {{extraLinebreak}} is a linebreak inserted for some fish with long location descriptions, {{weather}} is left blank if no particular weather is required
-	"weatherSun": " (sunny weather)", // included if only available in sunny weather
-	"weatherRain": " (rain only)", // included if only available in rain
-	"fishSubmarine": "Fish on Night Market submarine ride (Winter 15-17)",
-	"fishingChest": "Fishing treasure chests",
-	"crabPot": "Catch in {{crabPot}} ({{waterType}})",
+	"weatherSun": " (อากาศแจ่มใส)", // included if only available in sunny weather
+	"weatherRain": " (ฝนตกเท่านั้น)", // included if only available in rain
+	"fishSubmarine": "ตกปลาในเรือดำน้ำ ที่งานตลาดกลางคืน (ฤดูหนาว วันที่ 15-17)",
+	"fishingChest": "หีบสมบัติ (ตกได้ระหว่างตกปลา)",
+	"crabPot": "ดักได้จาก {{crabPot}} ({{waterType}})",
 	
 	// Animal Products
-	"animalProduct": "Produced by {{animal}}{{details}}",
-	"inGoodMood": " (if happy enough)", // included if a certain level of happiness is required to produce the item
-	"animalOutside": " (if let outside)", // included if animal must be outside to produce it
+	"animalProduct": "ผลผลิตจาก {{animal}}{{details}}",
+	"inGoodMood": " (ถ้าค่าความสุขเพียงพอ", // included if a certain level of happiness is required to produce the item
+	"animalOutside": " (ถ้าเลี้ยงสัตว์ไว้ข้างนอก)", // included if animal must be outside to produce it
 	
 	// Machines
-	"putItemInMachine": "Put {{rawItem}} in {{machine}}",
+	"putItemInMachine": "ใส่ {{rawItem}} ลงใน {{machine}}",
 	"machineItemQuantity": "{{item}} x{{num}}", // used for {{rawItem}} above if more than 1 of item is required
-	"putItemInMachineThenCask": "Put {{rawItem}} in {{machine}}, age {{resultItem}} in {{cask}}",
-	"noItemMachine": "Produced by {{machine}}",
+	"putItemInMachineThenCask": "ใส่ {{rawItem}} ลงใน {{machine}}, บ่ม {{resultItem}} ใน {{cask}}",
+	"noItemMachine": "ผลผลิตจาก {{machine}}",
 	
 	// Constructions
-	"putItemInMill": "Put {{rawItem}} in Mill building",
-	"fishPond": "Produced by Fish Pond with {{fish}} x{{num}}",
-	"fishPondAny": "Produced by Fish Pond with any fish",
+	"putItemInMill": "ใส่ {{rawItem}} ลงในโรงสี",
+	"fishPond": "ผลผลิตจากบ่อปลา {{fish}} x{{num}}",
+	"fishPondAny": "ผลผลิตจากบ่อปลาชนิดไหนก็ได้",
 	
 	// Monsters
-	"droppedByMonster": "Dropped by {{monster}}",
+	"droppedByMonster": "ดรอปจาก {{monster}}",
 	
 	// Trees
-	"treeDuringSeason": "{{tree}} during {{season}}",
-	"tapTree": "Use {{tapper}} on {{tree}}",
-	"seedFromTree": "Shake/chop down {{tree}}",
+	"treeDuringSeason": "{{tree}} ใน {{season}}",
+	"tapTree": "ใช้ {{tapper}} ติดบน {{tree}}",
+	"seedFromTree": "เขย่า/ตัดต้น {{tree}}",
 	
 	// Crafting/Cooking
-	"craftRecipeByName": "Craft {{recipe}}",
-	"craftRecipe": "Crafting",
-	"cookRecipe": "Cooking",
+	"craftRecipeByName": "คราฟ {{recipe}}",
+	"craftRecipe": "การคราฟ",
+	"cookRecipe": "ทำอาหาร",
 	
 	// From Geodes
-	"openGeode": "Open {{geode}} at blacksmith",
-	"openAnyGeode": "Open any geode at blacksmith",
+	"openGeode": "เปิด {{geode}} ได้ที่ร้านตีเหล็ก",
+	"openAnyGeode": "เปิดได้จากจีโอด(Geodes) ชนิดไหนก็ได้ ที่ร้านตีเหล็ก",
 	
 	// Panning
-	"panning": "Panning",
+	"panning": "ร่อน",
 	
 	// Ore Through Mining
-	"mineCopperOre": "Mine Copper Node (Mines, numerous on 31-39)",
-	"mineIronOre": "Mine Iron Node (Mines 41+, numerous on 71-79)",
-	"mineGoldOre": "Mine Gold Node (Mines 81+)",
-	"mineIridiumOre": "Mine Mystic Stone (Mines 101+), meteorite (rare event)",
+	"mineCopperOre": "ขุดจากก้อนทองแดง (เหมือง, ระหว่างชั้น 31-39)",
+	"mineIronOre": "ขุดจากก้อนเหล็ก (เหมือง 41+, ระหว่างชั้น 71-79)",
+	"mineGoldOre": "ขุดจากก้อนทองคำ (เหมือง 81+)",
+	"mineIridiumOre": "ขุดจากก้อนหินปริศนา (เหมือง 101+), อุกกาบาต (พบได้ยาก)",
 	
 	// Gems Through Mining
-	"gemEmerald": "Mine Emerald Node (Mines 81+), Gem Node",
-	"gemAquamarine": "Mine Aquamarine Node (Mines 41+), Gem Node",
+	"gemEmerald": "ขุดจากก้อนมรกต (เหมือง 81+), ก้อนอัญมณี",
+	"gemAquamarine": "ขุดจากก้อนอะความารีน (เหมือง 41+), ก้อนอัญมณี",
 	"gemRuby": "Mine Ruby Node (Mines 81+), Gem Node",
 	"gemAmethyst": "Mine Amethyst Node, Gem Node",
 	"gemTopaz": "Mine Topaz Node, Gem Node",
@@ -238,66 +238,66 @@
 	"treeMaple": "Maple Tree",
 	"treeOak": "Oak Tree",
 	"treePine": "Pine Tree",
-	"treeMushroom": "Mushroom Tree (rare Fall event)",
+	"treeMushroom": "Mushroom Tree (เหตุการณ์ฤดูใบไม้ร่วงที่หายาก)",
 	"treeDescSeedling": "seedling from {{shop}}{{startingYear}}", // advice for fruit trees
 	"treeDescNonFruit": "already on farm/grow {{treeSeed}}", // advice for Maple/Oak/Pine trees
 	
 	// General Monster Names (most monster names are taken from data, so these are either categories of monster or specific colors/etc.)
-	"monsterGeneralAnyInMines": "most monsters",
-	"monsterGeneralSlime": "Slime-type monsters",
-	"monsterGeneralBat": "Bat-type monsters",
-	"monsterGeneralBug": "Bug-type monsters",
-	"monsterBlueSlime": "Blue Slime",
-	"monsterRedSlime": "Red Slime",
-	"monsterPurpleSlime": "Purple Slime",
-	"monsterBRPCISlime": "Blue/Red/Purple/Copper/Iron Slime",
+	"monsterGeneralAnyInMines": "มอนสเตอร์ส่วนใหญ่",
+	"monsterGeneralSlime": "มอนสเตอร์ประเภทสไลม์",
+	"monsterGeneralBat": "มอนสเตอร์ประเภทค้างคาว",
+	"monsterGeneralBug": "มอนสเตอร์ประเภทแมลง",
+	"monsterBlueSlime": "สไลม์สีน้ำเงิน",
+	"monsterRedSlime": "สไลม์สีแดง",
+	"monsterPurpleSlime": "สไลม์สีม่วง",
+	"monsterBRPCISlime": "สไลม์สีน้ำเงิน / แดง / ม่วง / ทองแดง / สไลม์เหล็ก",
 	"monsterUnknown": "???",
 	
 	// Monster Locations (appended after monster names)
-	"monsterAreaMinesAll": "Mines",
-	"monsterAreaMinesAndSkull": "Mines, Skull Cavern",
-	"monsterAreaMinesRange": "Mines {{start}}-{{end}}",
-	"monsterAreaSkull": "Skull Cavern",
-	"monsterAreaSkullFloorPlus": "Skull Cavern {{start}}+",
-	"monsterAreaSkullPrehistoric": "Skull Cavern prehistoric floors",
-	"monsterAreaSkullMummy": "Skull Cavern mummy floors",
-	"monsterAreaVolcano": "Volcano",
+	"monsterAreaMinesAll": "เหมือง",
+	"monsterAreaMinesAndSkull": "เหมือง, ถ้ำหัวกะโหลก",
+	"monsterAreaMinesRange": "เหมือง {{start}}-{{end}}",
+	"monsterAreaSkull": "ถ้ำหัวกะโหลก",
+	"monsterAreaSkullFloorPlus": "ถ้ำหัวกะโหลก {{start}}+",
+	"monsterAreaSkullPrehistoric": "ถ้ำหัวกะโหลก - ชั้นก่อนประวัติศาสตร์",
+	"monsterAreaSkullMummy": "ถ้ำหัวกะโหลก - ชั้นมัมมี่",
+	"monsterAreaVolcano": "ภูเขาไฟ",
 	"monsterAreaUnknown": "???",
 	
 	// Animal Names (for animal product suggestions)
-	"animalCow": "Cows",
-	"animalChicken": "Chickens",
-	"animalVoidChicken": "Void Chickens",
-	"animalGoat": "Goats",
-	"animalSheep": "Sheep",
-	"animalRabbit": "Rabbits",
-	"animalDuck": "Ducks",
-	"animalPig": "Pigs",
+	"animalCow": "วัว (Cows)",
+	"animalChicken": "ไก่ (Chickens)",
+	"animalVoidChicken": "ไก่ดำ (Void Chickens)",
+	"animalGoat": "แพะ (Goats)",
+	"animalSheep": "แกะ (Sheep)",
+	"animalRabbit": "กระต่าย (Rabbits)",
+	"animalDuck": "เป็ด (Ducks)",
+	"animalPig": "หมู (Pigs)",
 	
 	// Animal Building Requirements (advice on how to obtain animals, if not currently available to purchase)
-	"animalReqCoopLv1": "need Coop",
-	"animalReqCoopLv2": "need Big Coop",
-	"animalReqCoopLv3": "need Deluxe Coop",
-	"animalReqBarnLv1": "need Barn",
-	"animalReqBarnLv2": "need Big Barn",
-	"animalReqBarnLv3": "need Deluxe Barn",
+	"animalReqCoopLv1": "ต้องการ เล้า (Coop)",
+	"animalReqCoopLv2": "ต้องการ เล้าใหญ่ (Big Coop)",
+	"animalReqCoopLv3": "ต้องการ เล้าหรู (Deluxe Coop)",
+	"animalReqBarnLv1": "ต้องการ คอก (Barn)",
+	"animalReqBarnLv2": "ต้องการ คอกใหญ่ (Big Barn)",
+	"animalReqBarnLv3": "ต้องการ คอกหรู (Deluxe Barn)",
 	
 	// Recipe Help
-	"recipeTipHouseUpgrade": "need house upgrade", // displayed for cooking recipes if cooking is not yet available
-	"recipeFrom": "recipe: {{sources}}",
+	"recipeTipHouseUpgrade": "ต้องอัพเกรดบ้าน", // displayed for cooking recipes if cooking is not yet available
+	"recipeFrom": "สูตรอาหาร: {{sources}}",
 	"recipeSourceSeparator": " / ",
 	
 	// Recipe Sources (compiled into list for recipeFrom)
 	"recipeSourceSaloon": "Saloon",
 	"recipeSourceTV": "TV ({{date}})",
-	"recipeSourceTVAlreadyAired": "TV (Wednesday rerun, or {{date}})",
-	"recipeSourceFriendship": "{{hearts}}+ hearts with {{person}}", // sent in mail when you have enough hearts
+	"recipeSourceTVAlreadyAired": "TV (ฉายซ้ำวันพุธ, หรือ {{date}})",
+	"recipeSourceFriendship": "{{hearts}}+ หัวใจกับ {{person}}", // sent in mail when you have enough hearts
 	"recipeSourceHeartEvent": "{{hearts}}-heart {{person}} event", // received from heart event specifically
-	"recipeSourceFirstCopper": "obtain {{copperOre}}",
-	"recipeSourceAfterGreenhouse": "fix greenhouse",
-	"recipeSourceFinalFarmhouse": "final farmhouse upgrade",
-	"recipeSourceAncientSeed": "donate {{seedArtifact}} to museum",
-	"recipeSourceRarecrows": "collect all Rarecrows",
+	"recipeSourceFirstCopper": "ได้รับ {{copperOre}}",
+	"recipeSourceAfterGreenhouse": "ซ่อมเรือนกระจก",
+	"recipeSourceFinalFarmhouse": "อัพเกรดบ้านขั้นสุดท้าย",
+	"recipeSourceAncientSeed": "บริจาค {{seedArtifact}} ไปยังพิพิธภัณฑ์",
+	"recipeSourceRarecrows": "รวบรวมหุ่นไล่กาหายากทั้งหมด",
 	
 	// Recipe Ingredient Lists (for learned recipes)
 	"recipeIngredientSingle": "{{ingredient}}", // for ingredient x1
@@ -313,8 +313,8 @@
 	"totalSkillLvRequirement": "Combined Skill Lv. {{num}}",
 	
 	// Machine Sources
-	"statueOfPerfectionTip": "perfect Grandpa evaluation", // advice for statue if you haven't had evaluation or achieved 4 candles
-	"statueOfPerfectionAvailable": "Grandpa's Shrine", // advice for statue if you've unlocked it, but haven't collected it
+	"statueOfPerfectionTip": "การประเมินความยอดเยี่ยมจากปู่", // advice for statue if you haven't had evaluation or achieved 4 candles
+	"statueOfPerfectionAvailable": "ศาลเจ้าคุณปู่", // advice for statue if you've unlocked it, but haven't collected it
 	
 	// Conditional Mail
 	"conditionalMailAll": "mail after {{time}} when {{friendReq}} & {{skillReq}}",
@@ -328,21 +328,21 @@
 	"timePM": "{{hour}}pm",
 	"time24Hour": "{{hour}}:00",
 	"timeRange": "{{start}}-{{end}}",
-	"anyTime": "any time",
+	"anyTime": "ทั้งวัน",
 	
 	// Days of the Week (for daily shop stocks)
-	"monday": "Monday",
-	"tuesday": "Tuesday",
-	"wednesday": "Wednesday",
-	"thursday": "Thursday",
-	"friday": "Friday",
-	"saturday": "Saturday",
-	"sunday": "Sunday",
+	"monday": "วันจันทร์",
+	"tuesday": "วันอังคาร",
+	"wednesday": "วันพุธ",
+	"thursday": "วันพฤหัสบดี",
+	"friday": "วันศุกร์",
+	"saturday": "วันเสาร์",
+	"sunday": "วันอาทิตย์",
 	
 	// Dates (for things that happen on or after specific date/season/year)
 	"specificDate": "{{season}} {{day}} Year {{year}}",
 	"generalDate": "{{season}} {{day}}",
-	"yearSeason": "{{season}} Year {{year}}",
-	"year": "Year {{year}}",
-	"today": "today", // when Queen of Sauce episode is airing that very day
+	"yearSeason": "{{season}} ปี {{year}}",
+	"year": "ปี {{year}}",
+	"today": "วันนี้", // when Queen of Sauce episode is airing that very day
 }
