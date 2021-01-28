@@ -76,53 +76,53 @@
 	"mineIridiumOre": "ขุดจากก้อนหินปริศนา (เหมือง 101+), อุกกาบาต (พบได้ยาก)",
 	
 	// Gems Through Mining
-	"gemEmerald": "ขุดจากก้อนมรกต (เหมือง 81+), ก้อนอัญมณี",
-	"gemAquamarine": "ขุดจากก้อนอะความารีน (เหมือง 41+), ก้อนอัญมณี",
-	"gemRuby": "Mine Ruby Node (Mines 81+), Gem Node",
-	"gemAmethyst": "Mine Amethyst Node, Gem Node",
-	"gemTopaz": "Mine Topaz Node, Gem Node",
-	"gemJade": "Mine Jade Node (Mines 41+), Gem Node",
-	"gemDiamond": "Mine Diamond Node (Mines 51+), Gem Node",
-	"gemPrismaticShard": "Mine Gem Node, Mystic Stone (Mines 101+, 25%), Iridium Node (4%)",
+	"gemEmerald": "ขุดจากก้อนมรกต (เหมือง 81+), ก้อนแร่อัญมณี",
+	"gemAquamarine": "ขุดจากก้อนอะความารีน (เหมือง 41+), ก้อนแร่อัญมณี",
+	"gemRuby": "ขุดจากก้อนทับทิม (เหมือง 81+), ก้อนแร่อัญมณี",
+	"gemAmethyst": "ขุดจากก้อนอเมทิสต์, ก้อนแร่อัญมณี",
+	"gemTopaz": "ขุดจากก้อนโทแพส, ก้อนแร่อัญมณี",
+	"gemJade": "ขุดจากก้อนหยก (เหมือง 41+), ก้อนแร่อัญมณี",
+	"gemDiamond": "ขุดจากก้อนเพชร (เหมือง 51+), ก้อนแร่อัญมณี",
+	"gemPrismaticShard": "ขุดจากก้อนแร่อัญมณี, ก้อนหินปริศนา (เหมือง 101+, 25%), ก้อนอิริเดียม (4%)",
 	
 	// Farm Cave
-	"caveYours": "Find in farm cave", // once cave type has been chosen, the other type is disregarded and this is used
-	"caveFruitBats": "Find in farm cave (fruit bats)", // if spoilers are allowed, cave type is specified until player selects type
-	"caveMushrooms": "Find in farm cave (mushrooms)", // if spoilers are allowed, cave type is specified until player selects type
+	"caveYours": "พบได้ที่ถ้ำในฟาร์ม", // once cave type has been chosen, the other type is disregarded and this is used
+	"caveFruitBats": "พบได้ที่ถ้ำในฟาร์ม (ถ้ำค้างคาวผลไม้)", // if spoilers are allowed, cave type is specified until player selects type
+	"caveMushrooms": "พบได้ที่ถ้ำในฟาร์ม (ถ้ำเห็ด)", // if spoilers are allowed, cave type is specified until player selects type
 	
 	// Buying
-	"buyFrom": "Buy from {{shop}}",
+	"buyFrom": "ซื้อจาก {{shop}}",
 	
 	// General Actions
-	"chopWood": "Chop trees and branches with {{axe}}",
-	"chopHardwood": "Chop large stumps with {{copperAxe}} or logs with {{steelAxe}}",
-	"chopTrees": "Chop trees with {{axe}}",
-	"smashCrates": "Smash boxes in the Mines",
-	"clearWeeds": "Destroy weeds",
-	"harvestHay": "Harvest from grass or {{wheat}}",
-	"trash": "Trash from fishing, Crab Pots, or garbage cans",
+	"chopWood": "ตัดต้นไม้ และกิ่งไม้ด้วย {{axe}}",
+	"chopHardwood": "ตัดตอไม้ใหญ่ด้วย {{copperAxe}} หรือ ขอนไม้ด้วย {{steelAxe}}",
+	"chopTrees": "ตัดต้นไม้ด้วย {{axe}}",
+	"smashCrates": "ทุบกล่องในเหมือง",
+	"clearWeeds": "กำจัดวัชพืช",
+	"harvestHay": "เก็บเกี่ยวได้จากต้นหญ้า หรือ {{wheat}}",
+	"trash": "ขยะที่ได้จากการตกปลา, ที่ดักปู, ถึงขยะ",
 	
 	// Miscellaneous Sources
-	"luckyShorts": "Marnie's room (in Mayor's Shorts quest on Summer 3)",
-	"goldenPumpkin": "Spirit's Eve maze (Fall 27)",
-	"mermaidPearl": "From Night Market (Winter 15-17) Mermaid Boat{{hint}}",
+	"luckyShorts": "ห้องของมานี (ในเควส Mayor's Shorts ฤดูร้อน วันที่ 3 )",
+	"goldenPumpkin": "ในเขาวงกตของเทศกาลภูติ (ฤดูใบไม้ร่วง 27)",
+	"mermaidPearl": "ได้จากตลาดกลางคืน (ฤดูหวาน 15-17) เรือนางเงือก {{hint}}",
 	"mermaidHint": " (1-5-4-2-3)", // included as hint for how to get the mermaid's pearl, if spoilers are allowed or secret note read
-	"winCraneGame": "Win from Movie Theater crane game",
-	"voidEggEvent": "Random witch event",
+	"winCraneGame": "ได้จากตู้เครนเกมที่โรงหนัง",
+	"voidEggEvent": "สุ่มในเหตุการณ์แม่มด",
 	
 	// Concealed Source (for when entire suggestion is a spoiler)
 	"unknownSource": "???",
 	
 	/***** Short Hints *****/
 	
-	"shortHintSeasonalCrop": "{{season}} crop",
-	"shortHintSeasonalCropStartingYear": "{{season}} crop Year {{year}}+",
-	"shortHintSeasonalSeed": "{{season}} seed",
-	"shortHintMachine": "{{item}} in {{machine}}",
-	"shortHintTrash": "trash",
-	"shortHintFishPond": "Fish Pond",
-	"shortHintFiber": "weeds",
-	"shortHintHay": "grass/{{wheat}}",
+	"shortHintSeasonalCrop": "ผลผลิต {{season}}",
+	"shortHintSeasonalCropStartingYear": "ผลผลิต {{season}} ปี {{year}}+",
+	"shortHintSeasonalSeed": "เมล็ดพันธุ์ {{season}}",
+	"shortHintMachine": "{{item}} จาก {{machine}}",
+	"shortHintTrash": "ขยะ",
+	"shortHintFishPond": "บ่อปลา",
+	"shortHintFiber": "วัชพืช",
+	"shortHintHay": "หญ้า/{{wheat}}",
 	
 	/***** Partial Strings *****/
 	
@@ -131,116 +131,116 @@
 	"multipleThingSeparator": "/", // general separator for lists of multiple seasons, locations, etc.
 	
 	// Season Names
-	"spring": "Spring",
-	"summer": "Summer",
-	"fall": "Fall",
-	"winter": "Winter",
-	"allSeasons": "all seasons",
+	"spring": "ฤดูใบไม้ผลิ",
+	"summer": "ฤดูร้อน",
+	"fall": "ฤดูใบไม้ร่วง",
+	"winter": "ฤดูหนาว",
+	"allSeasons": "ทุกฤดูกาล",
 	
 	// Location Names (for foraging suggestions)
-	"locationFarm": "on Farm",
-	"locationMines": "in the Mines",
-	"locationMinesArea1": "on Mines 1-39",
-	"locationMinesArea2": "on Mines 41-79",
-	"locationMinesArea3": "on Mines 81-119",
-	"locationMines21Plus": "on Mines 21+",
-	"locationMountains": "in the Mountains",
-	"locationBeach": "on Beach",
-	"locationBeachEast": "on Beach (right side)",
-	"locationBeachEastInaccessible": "on Beach (right side; 300 {{wood}} to fix bridge)", // tip displayed if bridge is not fixed
-	"locationForest": "in Cindersap Forest",
-	"locationWoods": "in Secret Woods",
-	"locationSewer": "in Sewer",
-	"locationDesert": "in Calico Desert",
-	"locationSkullPrehistoric": "on Skull Cavern prehistoric floors",
+	"locationFarm": "ที่ฟาร์ม",
+	"locationMines": "ในเหมือง",
+	"locationMinesArea1": "ในเหมือง 1-39",
+	"locationMinesArea2": "ในเหมือง 41-79",
+	"locationMinesArea3": "ในเหมือง 81-119",
+	"locationMines21Plus": "ในเหมือง 21+",
+	"locationMountains": "ที่ภูเขา",
+	"locationBeach": "ที่ชายหาด",
+	"locationBeachEast": "ที่ชายหาด (ทางขวา)",
+	"locationBeachEastInaccessible": "ที่ชายหาด (ทางขวา; ใช้ {{wood}} 300 ชิ้นเพื่อซ่อมสะพาน)", // tip displayed if bridge is not fixed
+	"locationForest": "ในป่าซินเดอร์แซป",
+	"locationWoods": "ในป่าลึกลับ",
+	"locationSewer": "ในท่อระบายน้ำ",
+	"locationDesert": "ที่ทะเลทรายคาลิโก้",
+	"locationSkullPrehistoric": "ในถ้ำหัวกะโหลก ชั้นก่อนประวัติศาสตร์",
 	"locationUnknown": "in ???",
 	
 	// Water Locations (for fishing suggestions)
-	"waterRivers": "in rivers", // Town river or Cindersap Forest river
-	"waterOcean": "in Ocean",
-	"waterTown": "in Town river",
-	"waterMountain": "in Mountain lake",
-	"waterForestPond": "in Cindersap Forest pond",
-	"waterForestRiver": "in Cindersap Forest river",
-	"waterSpecialFarm": "on Farm",
-	"waterWoods": "in Secret Woods pond",
-	"waterDesert": "in Desert pond",
-	"waterSewer": "in Sewer",
-	"waterBugLand": "in Bug Lair",
-	"waterMines": "on Mines Floor 20/60/100",
-	"waterMines20": "on Mines Floor 20",
-	"waterMines60": "on Mines Floor 60",
-	"waterMines100": "on Mines Floor 100",
-	"waterSwamp": "in Witch's Swamp",
-	"waterAnglerSpot": "at far north of Town river",
-	"waterCrimsonfishSpot": "from Beach east shore/pier",
-	"waterGlacierfishSpot": "from southernmost tip of Cindersap Forest center island",
-	"waterLegendSpot": "around log in Mountain lake",
-	"waterUnknown": "in ???",
+	"waterRivers": "ในแม่น้ำ", // Town river or Cindersap Forest river
+	"waterOcean": "ในทะเล",
+	"waterTown": "ในแม่น้ำที่เมือง",
+	"waterMountain": "ในทะเลสาบบนภูเขา",
+	"waterForestPond": "ในบ่อน้ำที่ป่าซินเดอร์แซป",
+	"waterForestRiver": "ในแม่น้ำที่ป่าซินเดอร์แซป",
+	"waterSpecialFarm": "ที่ฟาร์ม",
+	"waterWoods": "ในบ่อน้ำที่ป่าลึกลับ",
+	"waterDesert": "ในบ่อน้ำที่ทะเลทราย",
+	"waterSewer": "ในท่อระบายน้ำ",
+	"waterBugLand": "ในรังแมลง",
+	"waterMines": "ในเหมืองชั้น 20/60/100",
+	"waterMines20": "ในเหมืองชั้น 20",
+	"waterMines60": "ในเหมืองชั้น 60",
+	"waterMines100": "ในเหมืองชั้น 100",
+	"waterSwamp": "ในบึงน้ำของแม่มด",
+	"waterAnglerSpot": "ที่แม่น้ำทางทิศเหนือที่ไกลจากเมือง",
+	"waterCrimsonfishSpot": "จากชายหาดทางทิศตะวันออกของอ่าว/ท่าเรือ",
+	"waterGlacierfishSpot": "ปลายทางใต้สุดของเกาะที่อยู่ตรงกลางป่าซินเดอร์แซป",
+	"waterLegendSpot": "แถวๆ โคนต้นไมในทะเลสาบบนเขา",
+	"waterUnknown": "ใน ???",
 	
 	// Water Types (for crab pot suggestions)
-	"waterTypeOcean": "ocean",
-	"waterTypeFresh": "freshwater",
+	"waterTypeOcean": "ทะเล",
+	"waterTypeFresh": "แหล่งน้ำสะอาด",
 	
 	// Shop Names (for buying suggestions)
-	"shopPierre": "Pierre's",
-	"shopPierreSeason": "Pierre's in {{season}}{{startingYear}}",
-	"shopJoja": "JojaMart",
-	"shopMarnie": "Marnie's Ranch",
-	"shopCarpenter": "Carpenter's Shop",
-	"shopBlacksmith": "Blacksmith",
-	"shopSaloon": "Saloon",
-	"shopClinic": "Clinic",
-	"shopDwarf": "Dwarf",
-	"shopKrobus": "Krobus",
-	"shopKrobusWeekday": "Krobus ({{day}})",
-	"shopDesertTrader": "Desert Trader",
-	"shopOasis": "Oasis",
-	"shopOasisWeekday": "Oasis ({{day}})",
-	"shopTravelingCartRandom": "Traveling Cart (random)",
-	"shopTravelingCartSeason": "Traveling Cart in {{season}}",
-	"shopEggFestival": "Pierre at Egg Festival (Spring 13)",
-	"shopFlowerDance": "Pierre at Flower Dance (Spring 24)",
-	"shopSpiritsEve": "Pierre on Spirit's Eve (Fall 27)",
+	"shopPierre": "ร้านปิแอร์",
+	"shopPierreSeason": "ร้านปิแอร์ใน {{season}}{{startingYear}}",
+	"shopJoja": "ร้านโจจ้า",
+	"shopMarnie": "ฟาร์มปศุสัตว์ของมานี",
+	"shopCarpenter": "ร้านช่างไม้",
+	"shopBlacksmith": "ร้านตีเหล็ก",
+	"shopSaloon": "ซาลูน",
+	"shopClinic": "คลินิก",
+	"shopDwarf": "คนแคระ",
+	"shopKrobus": "โครบัส",
+	"shopKrobusWeekday": "โครบัส ({{day}})",
+	"shopDesertTrader": "พ่อค้าในทะเลทราย",
+	"shopOasis": "โอเอซิส",
+	"shopOasisWeekday": "โอเอซิส ({{day}})",
+	"shopTravelingCartRandom": "รถเร่ขายของ (สุ่ม)",
+	"shopTravelingCartSeason": "รถเร่ขายของใน {{season}}",
+	"shopEggFestival": "บูทปิแอร์ในเทศกาลไข่อีสเตอร์ (ฤดูใบไม้ผลิ วันที่ 13)",
+	"shopFlowerDance": "บูทปิแอร์ในเทศกาลเต้นรำดอกไม้ (ฤดูใบไม้ผลิ วันที่ 24)",
+	"shopSpiritsEve": "บูทปิแอร์ในเทศกาลภูติ (ฤด฿ใบไม้ร่วง  วันที่ 27)",
 	"shopUnknown": "???",
-	"randomlyAvailable": "random", // appended in parentheses after shop name when item is only randomly in stock
-	"mustHaveShipped": "ship {{item}}", // appended in parentheses after shop name if you have to have shipped a certain other item
-	"sewerRequirement": "donate 60 items to Museum", // appended in parentheses after Krobus's shop name if sewer is not yet accessible
+	"randomlyAvailable": "สุ่ม", // appended in parentheses after shop name when item is only randomly in stock
+	"mustHaveShipped": "ขาย {{item}}", // appended in parentheses after shop name if you have to have shipped a certain other item
+	"sewerRequirement": "บริจาคไอเท็ม 60 ชิ้นให้พิพิธภัณฑ์", // appended in parentheses after Krobus's shop name if sewer is not yet accessible
 	
 	// Item Categories (for when any item from a category is allowed as machine input or recipe ingredient)
-	"itemCategoryGem": "any gem",
-	"itemCategoryFish": "any fish",
-	"itemCategoryEgg": "any egg",
-	"itemCategoryMilk": "any milk",
-	"itemCategoryMineral": "any mineral",
-	"itemCategoryJunk": "any trash",
-	"itemCategorySeed": "any seed",
-	"itemCategoryVegetable": "any vegetable",
-	"itemCategoryFruit": "any fruit",
-	"itemCategoryFlower": "any flower",
-	"itemCategoryWildSeed": "any wild seeds", // category -777; not defined as a constant, but used for Tea Sapling recipe
-	"itemCategoryNut": "any nut", // not a category strictly defined by base game, but used to summarize machine input
-	"itemCategoryMushroom": "any mushroom", // not a category strictly defined by base game, but used to summarize machine input
+	"itemCategoryGem": "อัญมณีชนิดไหนก็ได้",
+	"itemCategoryFish": "ปลาชนิดไหนก็ได้",
+	"itemCategoryEgg": "ไข่ชนิดไหนก็ได้",
+	"itemCategoryMilk": "นมชนิดไหนก็ได้",
+	"itemCategoryMineral": "แร่ชนิดไหนก็ได้",
+	"itemCategoryJunk": "ขยะชนิดไหนก็ได้",
+	"itemCategorySeed": "เมล็ดพันธุ์ชนิดไหนก็ได้",
+	"itemCategoryVegetable": "ผักชนิดไหนก็ได้",
+	"itemCategoryFruit": "ผลไม้ชนิดไหนก็ได้",
+	"itemCategoryFlower": "ดอกไม้ชนิดไหนก็ได้",
+	"itemCategoryWildSeed": "เมล็ดพันธุ์ป่าชนิดไหนก็ได้", // category -777; not defined as a constant, but used for Tea Sapling recipe
+	"itemCategoryNut": "ถั่วชนิดไหนก็ได้", // not a category strictly defined by base game, but used to summarize machine input
+	"itemCategoryMushroom": "เห็ดชนิดไหนก็ได้", // not a category strictly defined by base game, but used to summarize machine input
 	
 	// Tree Names (for tree suggestions)
-	"treeApple": "Apple Tree",
-	"treeApricot": "Apricot Tree",
-	"treeOrange": "Orange Tree",
-	"treePeach": "Peach Tree",
-	"treePomegranate": "Pomegranate Tree",
-	"treeCherry": "Cherry Tree",
-	"treeLime": "Lime Tree", // PPJA
-	"treePapaya": "Papaya Tree", // PPJA
-	"treeWalnut": "Walnut Tree", // PPJA
-	"treePersimmon": "Persimmon Tree", // PPJA
-	"treeGranny": "Granny Smith Tree", // PPJA
-	"treeEucalyptus": "Eucalyptus Tree", // PPJA
-	"treeMaple": "Maple Tree",
-	"treeOak": "Oak Tree",
-	"treePine": "Pine Tree",
-	"treeMushroom": "Mushroom Tree (เหตุการณ์ฤดูใบไม้ร่วงที่หายาก)",
-	"treeDescSeedling": "seedling from {{shop}}{{startingYear}}", // advice for fruit trees
-	"treeDescNonFruit": "already on farm/grow {{treeSeed}}", // advice for Maple/Oak/Pine trees
+	"treeApple": "ต้นแอปเปิล",
+	"treeApricot": "ต้นแอปริคอต",
+	"treeOrange": "ต้นส้ม",
+	"treePeach": "ต้นพีช",
+	"treePomegranate": "ต้นทับทิม",
+	"treeCherry": "ต้นเชอร์รี่",
+	"treeLime": "ต้นมะนาว", // PPJA
+	"treePapaya": "ต้นมะละกอ", // PPJA
+	"treeWalnut": "ต้นวอลนัท", // PPJA
+	"treePersimmon": "ต้นพลับ", // PPJA
+	"treeGranny": "ต้นแอปเปิลแกรนนีสมิธ", // PPJA
+	"treeEucalyptus": "ต้นยูคาลิปตัส", // PPJA
+	"treeMaple": "ต้นเมเปิล",
+	"treeOak": "ต้นโอ๊ก",
+	"treePine": "ต้นสน",
+	"treeMushroom": "ต้นเห็ด(เหตุการณ์ฤดูใบไม้ร่วงที่หายาก)",
+	"treeDescSeedling": "ต้นกล้าจาก {{shop}}{{startingYear}}", // advice for fruit trees
+	"treeDescNonFruit": "{{treeSeed}} ที่โตอยู่แล้วในฟาร์ม", // advice for Maple/Oak/Pine trees
 	
 	// General Monster Names (most monster names are taken from data, so these are either categories of monster or specific colors/etc.)
 	"monsterGeneralAnyInMines": "มอนสเตอร์ส่วนใหญ่",
@@ -265,22 +265,22 @@
 	"monsterAreaUnknown": "???",
 	
 	// Animal Names (for animal product suggestions)
-	"animalCow": "วัว (Cows)",
-	"animalChicken": "ไก่ (Chickens)",
-	"animalVoidChicken": "ไก่ดำ (Void Chickens)",
-	"animalGoat": "แพะ (Goats)",
-	"animalSheep": "แกะ (Sheep)",
-	"animalRabbit": "กระต่าย (Rabbits)",
-	"animalDuck": "เป็ด (Ducks)",
-	"animalPig": "หมู (Pigs)",
+	"animalCow": "วัว",
+	"animalChicken": "ไก่",
+	"animalVoidChicken": "ไก่ดำ",
+	"animalGoat": "แพะ",
+	"animalSheep": "แกะ",
+	"animalRabbit": "กระต่าย",
+	"animalDuck": "เป็ด",
+	"animalPig": "หมู",
 	
 	// Animal Building Requirements (advice on how to obtain animals, if not currently available to purchase)
-	"animalReqCoopLv1": "ต้องการ เล้า (Coop)",
-	"animalReqCoopLv2": "ต้องการ เล้าใหญ่ (Big Coop)",
-	"animalReqCoopLv3": "ต้องการ เล้าหรู (Deluxe Coop)",
-	"animalReqBarnLv1": "ต้องการ คอก (Barn)",
-	"animalReqBarnLv2": "ต้องการ คอกใหญ่ (Big Barn)",
-	"animalReqBarnLv3": "ต้องการ คอกหรู (Deluxe Barn)",
+	"animalReqCoopLv1": "ต้องการเล้า (Coop)",
+	"animalReqCoopLv2": "ต้องการเล้าใหญ่ (Big Coop)",
+	"animalReqCoopLv3": "ต้องการเล้าหรู (Deluxe Coop)",
+	"animalReqBarnLv1": "ต้องการคอก (Barn)",
+	"animalReqBarnLv2": "ต้องการคอกใหญ่ (Big Barn)",
+	"animalReqBarnLv3": "ต้องการคอกหรู (Deluxe Barn)",
 	
 	// Recipe Help
 	"recipeTipHouseUpgrade": "ต้องอัพเกรดบ้าน", // displayed for cooking recipes if cooking is not yet available
@@ -288,11 +288,11 @@
 	"recipeSourceSeparator": " / ",
 	
 	// Recipe Sources (compiled into list for recipeFrom)
-	"recipeSourceSaloon": "Saloon",
-	"recipeSourceTV": "TV ({{date}})",
-	"recipeSourceTVAlreadyAired": "TV (ฉายซ้ำวันพุธ, หรือ {{date}})",
-	"recipeSourceFriendship": "{{hearts}}+ หัวใจกับ {{person}}", // sent in mail when you have enough hearts
-	"recipeSourceHeartEvent": "{{hearts}}-heart {{person}} event", // received from heart event specifically
+	"recipeSourceSaloon": "ซาลูน",
+	"recipeSourceTV": "ดูทีวี ({{date}})",
+	"recipeSourceTVAlreadyAired": "ดูทีวี (ฉายซ้ำวันพุธ, หรือ {{date}})",
+	"recipeSourceFriendship": "+ ค่าหัวใจ {{hearts}} ดวงกับ {{person}}", // sent in mail when you have enough hearts
+	"recipeSourceHeartEvent": "- เหตุการณ์หัวใจ {{hearts}} ดวงของ {{person}}", // received from heart event specifically
 	"recipeSourceFirstCopper": "ได้รับ {{copperOre}}",
 	"recipeSourceAfterGreenhouse": "ซ่อมเรือนกระจก",
 	"recipeSourceFinalFarmhouse": "อัพเกรดบ้านขั้นสุดท้าย",
@@ -317,11 +317,11 @@
 	"statueOfPerfectionAvailable": "ศาลเจ้าคุณปู่", // advice for statue if you've unlocked it, but haven't collected it
 	
 	// Conditional Mail
-	"conditionalMailAll": "mail after {{time}} when {{friendReq}} & {{skillReq}}",
-	"conditionalMailTimeFriend": "mail after {{time}} at {{friendReq}}",
-	"conditionalMailTimeSkill": "mail after {{time}} w/ {{skillReq}}",
-	"conditionalMailFriendSkill": "mail when at {{friendReq}} & {{skillReq}}",
-	"mailConditionFriendship": "{{hearts}} hearts w/ {{person}}",
+	"conditionalMailAll": "จดหมายจะส่งมาหลังจาก {{time}} เมื่อ {{friendReq}} & {{skillReq}}",
+	"conditionalMailTimeFriend": "จดหมายจะส่งมาหลังจาก {{time}} เมื่อ {{friendReq}}",
+	"conditionalMailTimeSkill": "จดหมายจะส่งมาหลังจาก {{time}} ได้รับสกิล {{skillReq}}",
+	"conditionalMailFriendSkill": "จดหมายจะส่งมาหลังจาก {{friendReq}} & {{skillReq}}",
+	"mailConditionFriendship": "มีค่าหัวใจ {{hearts}} ดวง กับ {{person}}",
 	
 	// Times (for fishing)
 	"timeAM": "{{hour}}am",
@@ -340,7 +340,7 @@
 	"sunday": "วันอาทิตย์",
 	
 	// Dates (for things that happen on or after specific date/season/year)
-	"specificDate": "{{season}} {{day}} Year {{year}}",
+	"specificDate": "{{season}} {{day}} ปี {{year}}",
 	"generalDate": "{{season}} {{day}}",
 	"yearSeason": "{{season}} ปี {{year}}",
 	"year": "ปี {{year}}",
