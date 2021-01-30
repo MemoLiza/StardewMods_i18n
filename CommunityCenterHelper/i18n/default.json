@@ -2,30 +2,30 @@
 	/***** Suggestions *****/
 	
 	// Crops
-	"seasonalCrop": "ปลูกจากเมล็ด ซื้อที่ {{seedShop}} ใน {{season}}{{startingYear}}{{qualityCrop}}",
+	"seasonalCrop": "ปลูกจากเมล็ด ซื้อที่{{seedShop}} ใน{{season}}{{startingYear}}{{qualityCrop}}",
 	"growSeeds": "ปลูก {{seeds}}{{qualityCrop}}",
 	"startingYear": " (พบได้ในปี {{num}})", // included if seeds only become available starting a certain year
 	"qualityCrop": " (จำเป็นต้องใส่ปุ๋ย)", // included if higher quality is required
 	
 	// Foraging
-	"seasonalForage": "หาได้ในฤดู {{season}}",
-	"locationalForage": "หาได้ที่ {{location}}",
-	"seasonalLocationalForage": "หาได้ในฤดู {{season}} {{location}}",
+	"seasonalForage": "หาได้ใน{{season}}",
+	"locationalForage": "หาได้{{location}}",
+	"seasonalLocationalForage": "หาได้ใน{{season}}{{location}}",
 	"salmonberryForage": "หาได้ตามพุ่มไม้ในฤดูใบไม้ผลิ วันที่ 15-18",
 	
 	// Tilling
 	"generalTilling": "ขุดจากพื้นดิน",
-	"seasonalTilling": "ขุดได้ใน {{season}}",
-	"locationalTilling": "ขุดได้ที่ {{location}}",
+	"seasonalTilling": "ขุดได้ใน{{season}}",
+	"locationalTilling": "ขุดได้{{location}}",
 	"artifactDigging": "ขุดจากจุดที่พบ Artifact (\"หนอน\")",
-	"locationalArtifact": "ขุดจากจุดที่พบ Artifact ที่ {{location}}",
+	"locationalArtifact": "ขุดจากจุดที่พบ Artifact {{location}}",
 	
 	// Mining
 	"hitRocks": "ทุบก้อนหินด้วย {{pickaxe}}",
-	"hitRocksInLocation": "ทำลายก้อนหิน ที่ {{location}}",
+	"hitRocksInLocation": "ทำลายก้อนหิน{{location}}",
 	
 	// Fishing
-	"fishBase": "ปลา {{water}}, {{extraLinebreak}}{{time}}{{weather}}, {{season}}",
+	"fishBase": "ปลา{{water}}, {{extraLinebreak}}{{time}}{{weather}}, {{season}}",
 	// {{extraLinebreak}} is a linebreak inserted for some fish with long location descriptions, {{weather}} is left blank if no particular weather is required
 	"weatherSun": " (อากาศแจ่มใส)", // included if only available in sunny weather
 	"weatherRain": " (ฝนตกเท่านั้น)", // included if only available in rain
@@ -34,7 +34,7 @@
 	"crabPot": "ดักได้จาก {{crabPot}} ({{waterType}})",
 	
 	// Animal Products
-	"animalProduct": "ผลผลิตจาก {{animal}}{{details}}",
+	"animalProduct": "ผลผลิตจาก{{animal}}{{details}}",
 	"inGoodMood": " (ถ้าค่าความสุขเพียงพอ", // included if a certain level of happiness is required to produce the item
 	"animalOutside": " (ถ้าเลี้ยงสัตว์ไว้ข้างนอก)", // included if animal must be outside to produce it
 	
@@ -47,15 +47,15 @@
 	// Constructions
 	"putItemInMill": "ใส่ {{rawItem}} ลงในโรงสี",
 	"fishPond": "ผลผลิตจากบ่อปลา {{fish}} x{{num}}",
-	"fishPondAny": "ผลผลิตจากบ่อปลาชนิดไหนก็ได้",
+	"fishPondAny": "ผลผลิตจากบ่อปลา (ปลาชนิดไหนก็ได้)",
 	
 	// Monsters
 	"droppedByMonster": "ดรอปจาก {{monster}}",
 	
 	// Trees
-	"treeDuringSeason": "{{tree}} ใน {{season}}",
-	"tapTree": "ใช้ {{tapper}} ติดบน {{tree}}",
-	"seedFromTree": "เขย่า/ตัดต้น {{tree}}",
+	"treeDuringSeason": "{{tree}} ใน{{season}}",
+	"tapTree": "ใช้ {{tapper}} ติดบน{{tree}}",
+	"seedFromTree": "เขย่า/ตัด{{tree}}",
 	
 	// Crafting/Cooking
 	"craftRecipeByName": "คราฟ {{recipe}}",
@@ -91,10 +91,10 @@
 	"caveMushrooms": "พบได้ที่ถ้ำในฟาร์ม (ถ้ำเห็ด)", // if spoilers are allowed, cave type is specified until player selects type
 	
 	// Buying
-	"buyFrom": "ซื้อจาก {{shop}}",
+	"buyFrom": "ซื้อจาก{{shop}}",
 	
 	// General Actions
-	"chopWood": "ตัดต้นไม้ และกิ่งไม้ด้วย {{axe}}",
+	"chopWood": "ตัดต้นไม้และกิ่งไม้ด้วย {{axe}}",
 	"chopHardwood": "ตัดตอไม้ใหญ่ด้วย {{copperAxe}} หรือ ขอนไม้ด้วย {{steelAxe}}",
 	"chopTrees": "ตัดต้นไม้ด้วย {{axe}}",
 	"smashCrates": "ทุบกล่องในเหมือง",
@@ -115,9 +115,9 @@
 	
 	/***** Short Hints *****/
 	
-	"shortHintSeasonalCrop": "ผลผลิต {{season}}",
-	"shortHintSeasonalCropStartingYear": "ผลผลิต {{season}} ปี {{year}}+",
-	"shortHintSeasonalSeed": "เมล็ดพันธุ์ {{season}}",
+	"shortHintSeasonalCrop": "ผลผลิต{{season}}",
+	"shortHintSeasonalCropStartingYear": "ผลผลิต{{season}} ปี {{year}}+",
+	"shortHintSeasonalSeed": "เมล็ดพันธุ์{{season}}",
 	"shortHintMachine": "{{item}} จาก {{machine}}",
 	"shortHintTrash": "ขยะ",
 	"shortHintFishPond": "บ่อปลา",
@@ -153,7 +153,7 @@
 	"locationSewer": "ในท่อระบายน้ำ",
 	"locationDesert": "ที่ทะเลทรายคาลิโก้",
 	"locationSkullPrehistoric": "ในถ้ำหัวกะโหลก ชั้นก่อนประวัติศาสตร์",
-	"locationUnknown": "in ???",
+	"locationUnknown": "ใน ???",
 	
 	// Water Locations (for fishing suggestions)
 	"waterRivers": "ในแม่น้ำ", // Town river or Cindersap Forest river
@@ -184,7 +184,7 @@
 	
 	// Shop Names (for buying suggestions)
 	"shopPierre": "ร้านปิแอร์",
-	"shopPierreSeason": "ร้านปิแอร์ใน {{season}}{{startingYear}}",
+	"shopPierreSeason": "ร้านปิแอร์ใน{{season}}{{startingYear}}",
 	"shopJoja": "ร้านโจจ้า",
 	"shopMarnie": "ฟาร์มปศุสัตว์ของมานี",
 	"shopCarpenter": "ร้านช่างไม้",
@@ -198,10 +198,10 @@
 	"shopOasis": "โอเอซิส",
 	"shopOasisWeekday": "โอเอซิส ({{day}})",
 	"shopTravelingCartRandom": "รถเร่ขายของ (สุ่ม)",
-	"shopTravelingCartSeason": "รถเร่ขายของใน {{season}}",
+	"shopTravelingCartSeason": "รถเร่ขายของใน{{season}}",
 	"shopEggFestival": "บูทปิแอร์ในเทศกาลไข่อีสเตอร์ (ฤดูใบไม้ผลิ วันที่ 13)",
 	"shopFlowerDance": "บูทปิแอร์ในเทศกาลเต้นรำดอกไม้ (ฤดูใบไม้ผลิ วันที่ 24)",
-	"shopSpiritsEve": "บูทปิแอร์ในเทศกาลภูติ (ฤด฿ใบไม้ร่วง  วันที่ 27)",
+	"shopSpiritsEve": "บูทปิแอร์ในเทศกาลภูติ (ฤดูใบไม้ร่วง วันที่ 27)",
 	"shopUnknown": "???",
 	"randomlyAvailable": "สุ่ม", // appended in parentheses after shop name when item is only randomly in stock
 	"mustHaveShipped": "ขาย {{item}}", // appended in parentheses after shop name if you have to have shipped a certain other item
@@ -239,7 +239,7 @@
 	"treeOak": "ต้นโอ๊ก",
 	"treePine": "ต้นสน",
 	"treeMushroom": "ต้นเห็ด(เหตุการณ์ฤดูใบไม้ร่วงที่หายาก)",
-	"treeDescSeedling": "ต้นกล้าจาก {{shop}}{{startingYear}}", // advice for fruit trees
+	"treeDescSeedling": "ต้นกล้าจาก{{shop}}{{startingYear}}", // advice for fruit trees
 	"treeDescNonFruit": "{{treeSeed}} ที่โตอยู่แล้วในฟาร์ม", // advice for Maple/Oak/Pine trees
 	
 	// General Monster Names (most monster names are taken from data, so these are either categories of monster or specific colors/etc.)
@@ -321,7 +321,7 @@
 	"conditionalMailTimeFriend": "จดหมายจะส่งมาหลังจาก {{time}} เมื่อ {{friendReq}}",
 	"conditionalMailTimeSkill": "จดหมายจะส่งมาหลังจาก {{time}} ได้รับสกิล {{skillReq}}",
 	"conditionalMailFriendSkill": "จดหมายจะส่งมาหลังจาก {{friendReq}} & {{skillReq}}",
-	"mailConditionFriendship": "มีค่าหัวใจ {{hearts}} ดวง กับ {{person}}",
+	"mailConditionFriendship": "มีค่าหัวใจ {{hearts}} ดวงกับ {{person}}",
 	
 	// Times (for fishing)
 	"timeAM": "{{hour}}am",
