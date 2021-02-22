@@ -21,7 +21,8 @@
     ** Player & Tools tab
     *********/
     // player
-    "player.title": "ตัวละครผู้เล่น",
+    //"player.title": "ตัวละครผู้เล่น",
+    "player.title": "ĕÇÅÐ¤Ãڌà˕¹",
     "player.infinite-stamina": "ค่าพลังกายไม่จำกัด",
     "player.infinite-health": "ค่าพลังชีวิตไม่จำกัด",
     "player.instant-cooldowns": "ไม่มีคูลดาวน์การใช้อาวุธ",
@@ -32,16 +33,21 @@
     "player.max-daily-luck": "โชคประจำวันสูงสุด",
 
     // tools
-    "tools.title": "เครื่องมือ",
+    //"tools.title": "เครื่องมือ",
+    "tools.title": "à¤ҳÍ§ȑÍ",
     "tools.infinite-water": "บัวรดน้ำ มีน้ำเต็มตลอด",
     "tools.one-hit-break": "ทำลายในการตีทีเดียว",
     "tools.harvest-with-scythe": "เก็บเกี่ยวด้วยเคียว",
 
     // money
-    "add.money": "เงิน",
-    "add.casino-coins": "เหรียญคาสิโน",
-    "add.golden-walnuts": "วอลนัททองคำ",
-    "add.qi-gems": "อัญมณี Qi ",
+    //"add.money": "เงิน",
+    "add.money": "àŧ¹",
+    //"add.casino-coins": "เหรียญคาสิโน",
+    "add.casino-coins": "àËƳÂ­¤ÒƊâ¹",
+    //"add.golden-walnuts": "วอลนัททองคำ",
+    "add.golden-walnuts": "ÇÍÅę··Í§ĴÒ",
+    //"add.qi-gems": "อัญมณี Qi ",
+    "add.qi-gems": "ĭ­Áƣ Qi ",
     "add.amount-gold": "เพิ่ม {{amount}}g",
     "add.amount-other": "เพิ่ม {{amount}}",
 
@@ -50,7 +56,8 @@
     ** Farm & Fishing tab
     *********/
     // farm
-    "farm.title": "การทำฟาร์ม",
+    //"farm.title": "การทำฟาร์ม",
+    "farm.title": "¡ÒÃŇÒ¿ÒΓÁ",
     "farm.auto-water": "รดน้ำพืชผักอัตโนมัติ",
     "farm.durable-fences": "รั้วไม่ถูกทำลาย",
     "farm.instant-build": "สร้างสิ่งปลูกสร้างทันที",
@@ -58,7 +65,8 @@
     "farm.infinite-hay": "ฟางไม่จำกัด",
 
     // fishing
-    "fishing.title": "การตกปลา",
+    //"fishing.title": "การตกปลา",
+    "fishing.title": "¡ÒÃµ¡»ÅÒ",
     "fishing.instant-catch": "ตกได้ปลาทันที",
     "fishing.instant-bite": "ปลากินเหยื่อทันที",
     "fishing.always-throw-max-distance": "เหวี่ยงเบ็ดไกลสุดเสมอ",
@@ -66,7 +74,8 @@
     "fishing.durable-tackles": "เหยื่อไม่ถูกทำลาย",
 
     // fast machines
-    "fast-machines.title": "เร่งความเร็วการผลิต",
+    //"fast-machines.title": "เร่งความเร็วการผลิต",
+    "fast-machines.title": "à˓§¤ÇÒÁàʣÇ¡ÒÃ¼ƅµ",
     "fast-machines.fruit-trees": "ต้นผลไม้",
     "fast-machines.ready-in-the-morning": "{{machineName}} (พร้อมเก็บในตอนเช้า)",
 
@@ -75,7 +84,8 @@
     ** Skills tab
     *********/
     // skills
-    "skills.title": "ทักษะ",
+    //"skills.title": "ทักษะ",
+    "skills.title": "ė¡ÉÐ",
     "skills.increase-farming": "เพิ่มค่าทักษะ การทำฟาร์ม : {{currentLevel}}",
     "skills.increase-mining": "เพิ่มค่าทักษะ การทำเหมือง: {{currentLevel}}",
     "skills.increase-foraging": "เพิ่มค่าทักษะ การหาของป่า: {{currentLevel}}",
@@ -84,7 +94,8 @@
     "skills.reset": "รีเซ็ต ค่าทักษะ!",
 
     // professions
-    "professions.title": "อาชีพ",
+    //"professions.title": "อาชีพ",
+    "professions.title": "ÍÒƚ¾",
     "professions.combat.fighter": "Combat lvl 5 - Fighter",
     "professions.combat.scout": "Combat lvl 5 - Scout",
     "professions.combat.acrobat": "Combat lvl 10 - Acrobat",
@@ -120,7 +131,8 @@
     /*********
     ** Weather tab
     *********/
-    "weather.title": "สภาพอากาศวันพรุ่งนี้",
+    //"weather.title": "สภาพอากาศวันพรุ่งนี้",
+    "weather.title": "ÊÀÒ¾ÍÒ¡ÒÈħ¹¾ӣ§׉",
     "weather.current": "ปัจจุบัน",
     "weather.sunny": "อากาศแจ่มใส",
     "weather.raining": "ฝนตก",
@@ -131,17 +143,20 @@
     /*********
     ** Relationships tab
     *********/
-    "relationships.title": "ความสัมพันธ์",
+    //"relationships.title": "ความสัมพันธ์",
+    "relationships.title": "¤ÇÒÁĪÁĞ¹Έ",
     "relationships.give-gifts-anytime": "ให้ของขวัญได้ทุกเวลา",
     "relationships.no-decay": "ค่าความสัมพันธ์ไม่ลด",
-    "relationships.friends": "เพื่อนของฉัน",
+    //"relationships.friends": "เพื่อนของฉัน",
+    "relationships.friends": "àҮÍ¹¢Í§ĉ¹",
 
 
     /*********
     ** Warps tab
     *********/
     // main areas
-    "warp-section.main": "สถานที่หลัก",
+    //"warp-section.main": "สถานที่หลัก",
+    "warp-section.main": "Ê¶Ò¹чËĥ¡",
     "warp.farm": "ฟาร์ม",
     "warp.carpenter": "ร้านช่างไม้",
     "warp.desert": "ทะเลทราย",
@@ -149,7 +164,8 @@
     "warp.pierre-shop": "ร้านปิแอร์",
 
     // town
-    "warp-section.town": "เมือง",
+    //"warp-section.town": "เมือง",
+    "warp-section.town": "àȑÍ§",
     "warp.blacksmith": "ร้านตีเหล็ก",
     "warp.community-center": "ศูนย์ชุมชน",
     "warp.jojamart": "ร่านโจจ้า",
@@ -159,25 +175,29 @@
     "warp.sewer": "ท่อระบายน้ำ",
 
     // forest
-    "warp-section.forest": "ป่า",
+    //"warp-section.forest": "ป่า",
+    "warp-section.forest": "ˋÒ",
     "warp.hats": "ร้านหนูหมวก",
     "warp.ranch": "ฟาร์มของมานี",
     "warp.secret-woods": "ป่าลึกลับ",
     "warp.wizard-tower": "หอคอยพ่อมด",
 
     // mountain
-    "warp-section.mountain": "ภูเขา",
+    //"warp-section.mountain": "ภูเขา",
+    "warp-section.mountain": "ɰà¢Ò",
     "warp.adventurers-guild": "กิลด์นักผจญภัย",
     "warp.bathhouse": "โรงอาบน้ำ",
     "warp.quarry": "เหมืองหิน",
 
     // beach
-    "warp-section.beach": "ชายหาด",
+    //"warp-section.beach": "ชายหาด",
+    "warp-section.beach": "ªÒÂËÒ´",
     "warp.tide-pools": "ชายหาด (ฝั่งขวา)",
     "warp.willy-shop": "ร้านของวิลลี่",
 
     // island
-    "warp-section.island": "เกาะขิง",
+    //"warp-section.island": "เกาะขิง",
+    "warp-section.island": "à¡ÒÐŢ§",
     "warp.forge": "เตาหลอม",
     "warp.island-farm": "ฟาร์มบนเกาะ",
     "warp.dwarf-shop": "ร้านคนแคระ (ภูเขาไฟ)",
@@ -185,7 +205,8 @@
     "warp.leo-house": "บ้านของลีโอ",
 
     // desert
-    "warp-section.desert": "ทะเลทราย",
+    //"warp-section.desert": "ทะเลทราย",
+    "warp-section.desert": "·ÐàÅ·ÃÒÂ",
     "warp.casino": "คาสิโน",
     "warp.sandy-shop": "ร้านของแซนดี้",
     "warp.skull-cavern": "ถ้ำหัวกะโหลก",
@@ -194,7 +215,8 @@
     /*********
     ** Time tab
     *********/
-    "time.title": "เวลา",
+    //"time.title": "เวลา",
+    "time.title": "àÇÅÒ",
     "time.freeze-inside": "หยุดเวลาเมื่ออยู่ในอาคาร",
     "time.freeze-caves": "หยุดเวลาเมื่ออยู่ในถ้ำ",
     "time.freeze-everywhere": "หยุดเวลาใน ทุกๆ ที่",
@@ -206,14 +228,19 @@
     ** Advanced tab
     *********/
     "flags.warning": "โปรดใช้เมนนี้ ด้วยความระมัดระวัง!\nนี่อาจทำให้จดหมาย, เหตุการณ์พิเศษ, เควส ถูกข้ามได้",
-    "flags.quests": "ทำเควสให้สำเร็จ",
-    "flags.wallet": "ไอเท็มติดตัวในกระเป๋า",
-    "flags.unlocked": "ปลดล็อกสถานที่",
+    //"flags.quests": "ทำเควสให้สำเร็จ",
+    "flags.quests": "ŇÒà¤ÇÊã̋ŚÒàʣ¨",
+    //"flags.wallet": "ไอเท็มติดตัวในกระเป๋า",
+    "flags.wallet": "äÍàʗÁŵ´ĕÇã¹¡ÃÐà͛Ò",
+    //"flags.unlocked": "ปลดล็อกสถานที่",
+    "flags.unlocked": "»Å´ʥÍ¡Ê¶Ò¹ч",
     "flags.unlocked.guild": "กิลด์นักผจญภัย",
     "flags.unlocked.room": "ห้องของ: {{name}}",
-    "flags.unlocked-content": "ปลดล็อกเนื้อหา",
+    //"flags.unlocked-content": "ปลดล็อกเนื้อหา",
+    "flags.unlocked-content": "»Å´ʥÍ¡àةÍËÒ",
     "flags.unlocked-content.dyes-and-tailoring": "การย้อมสี & การตัดเย็บ",
-    "flags.community-center": "ศูนย์ชุมชน",
+    //"flags.community-center": "ศูนย์ชุมชน",
+    "flags.community-center": "ɸ¹ΒȪÁª¹",
     "flags.community-center.door-unlocked": "ปลดล็อกประตู",
     "flags.jojamart.membership": "เป็นสมาชิกโจจ้า",
 
@@ -221,7 +248,8 @@
     /*********
     ** Controls tab
     *********/
-    "controls.title": "เมนูควบคุม",
+    //"controls.title": "เมนูควบคุม",
+    "controls.title": "àÁɩ¤ÇºȤÁ",
     "controls.android-config-note": "คุณสามารถเปลี่ยนปุ่มกดที่หน้าจอ ได้ที่ไฟล์ config ของมอด CJB Cheat Manu และมอด virtual Keyboard",
     "controls.open-menu": "ปุ่มเปิดเมนู",
     "controls.freeze-time": "ปุ่มหยุดเวลา",
