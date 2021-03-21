@@ -48,7 +48,7 @@
     // NPC friendship
     "friendship-status.friendly": "เพื่อน",
     "friendship-status.dating": "คนรัก",
-    "friendship-status.engaged": "คู่มั่น",
+    "friendship-status.engaged": "คู่หมั้น",
     "friendship-status.married": "สามี-ภรรยา",
     "friendship-status.divorced": "หย่าร้าง",
     "friendship-status.kicked-out": "ถูกขับไส",
@@ -92,10 +92,10 @@
     "data.type.container": "ภาชนะ",
 
     // farm items
-    "data.item.egg-incubator.description": "ใช่ฟักไข่ให้กลายเป็น ลูกเจี๊ยบ หรือลูกเป็ด",
+    "data.item.egg-incubator.description": "ใช้ฟักไข่ให้กลายเป็น ลูกเจี๊ยบ หรือลูกเป็ด",
     "data.item.broken-branch.name": "กิ่งไม้หัก",
     "data.item.broken-branch.description": "กิ่งไม้หัก เมื่อสับด้วยขวาน จะได้เป็นท่อนไม้ (wood)",
-    "data.item.stone.name": "้ก้อนหิน",
+    "data.item.stone.name": "ก้อนหิน",
     "data.item.stone.description": "ก้อนหินสีเทาที่ระบุประเภทไม่ได้ เมื่อทำลายมันจะได้รับ ก้อนหิน (stone)",
     "data.item.geode.name": "ผลึกโพรง",
     "data.item.geode.description": "เมื่อทำลายมันจะได้รับ ผลึกโพรง (geodes)",
@@ -126,7 +126,7 @@
     "data.item.jade-node.name": "ก้อนหยก",
     "data.item.jade-node.description": "เมื่อทำลายมันจะได้รับ หยก (Jade)",
     "data.item.mystic-stone.name": "ก้อนหินปริศนา",
-    "data.item.mystic-stone.description": "เมื่อทำลายมันจะได้รับ อัญมณีหายาก (Rare Gems) หรือ แร่, รวมถึง สะเก็ดแก้วปริซึม (Prismatic Shard)",
+    "data.item.mystic-stone.description": "เมื่อทำลายมันจะได้รับ อัญมณีหายาก (Rare Gems) หรือ แร่ (Ores), รวมถึง สะเก็ดแก้วปริซึม (Prismatic Shard)",
     "data.item.prismatic-node.name": "ก้อนสะเก็ดแก้วปริซึม",
     "data.item.prismatic-node.description": "เมื่อทำลายมันจะได้รับ (Prismatic shard)",
     "data.item.ruby-node.name": "ก้อนทับทิม",
@@ -150,7 +150,7 @@
 
     // mine stones
     "data.item.colored-stone.name": "หินสี",
-    "data.item.colored-stone.description": "ก้อนหินที่ระบุประเภทไม่ได้ มีโอกาสได้รับ ก้อนหิน แร่ หรือผลึกโพรง (geodes)",
+    "data.item.colored-stone.description": "ก้อนหินที่ระบุประเภทไม่ได้ มีโอกาสได้รับ ก้อนหิน (stone), แร่ (ores), หรือผลึกโพรง (geodes)",
     "data.item.mine-stone.name": "ก้อนหิน",
     "data.item.mine-stone.description": "เมื่อทำลายมันจะได้รับ ก้อนหิน (stone) และมีโอกาสจะได้รับ ถ่านหิน (coal)",
 
@@ -167,7 +167,7 @@
     "data.item.box.description": "เมื่อทำลายมันจะได้รับของจิปาถะ",
 
     // location names
-    "location.backwoods": "ป่าแบ็ควู้ดแ",
+    "location.backwoods": "ป่าด้านหลังฟาร์ม",
     "location.beach": "ชายหาด",
     "location.beach.east-pier": "ชายหาด (ฝั่งขวา)",
     "location.bugLand": "ลังแมลงกลายพันธุ์",
@@ -230,39 +230,39 @@
     ** Building > generic lookups
     *********/
     // labels
-    "building.animals": "Animals",
-    "building.construction": "Construction",
-    "building.feed-trough": "Feed trough",
-    "building.horse": "Horse",
-    "building.horse-location": "Horse location",
-    "building.owner": "Owner",
-    "building.slimes": "Slimes",
-    "building.stored-hay": "Stored hay",
+    "building.animals": "จำนวนสัตว์เลี้ยง",
+    "building.construction": "กำลังก่อสร้าง",
+    "building.feed-trough": "การให้อาหาร",
+    "building.horse": "ม้าชื่อ",
+    "building.horse-location": "ตำแหน่งของม้า",
+    "building.owner": "เจ้าของ",
+    "building.slimes": "จำนวนสไลม์",
+    "building.stored-hay": "ฟางในคลัง",
     "building.upgrades": "Upgrades",
     "building.water-trough": "Water trough",
 
     // values
-    "building.animals.summary": "{{count}} of max {{max}} animals",
-    "building.construction.summary": "ready on {{date}}",
-    "building.feed-trough.automated": "automated",
+    "building.animals.summary": "{{count}} ตัวจากจำนวนสูงสุด {{max}} ตัว",
+    "building.construction.summary": "พร้อมใช้งานเมื่อ {{date}}",
+    "building.feed-trough.automated": "อัตโนมัติ",
     "building.feed-trough.summary": "{{filled}} of {{max}} feed slots filled",
     "building.horse-location.summary": "{{location}} ({{x}}, {{y}})",
-    "building.junimo-harvesting-enabled": "Harvesting enabled",
-    "building.owner.none": "no owner",
+    "building.junimo-harvesting-enabled": "อนุญาตให้เก็บเกี่ยว",
+    "building.owner.none": "ไม่มีใครเป็นเจ้าของ",
     "building.output-processing": "Output processing",
     "building.output-ready": "Output ready",
-    "building.slimes.summary": "{{count}} of max {{max}} slimes",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} hay (max capacity: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{hayCount}} hay in {{siloCount}} silos (max capacity: {{maxHay}})",
-    "building.upgrades.barn.0": "up to 4 animals, add cows",
-    "building.upgrades.barn.1": "up to 8 animals, add pregnancy and goats",
-    "building.upgrades.barn.2": "up to 12 animals, add autofeed, pigs, and sheep",
-    "building.upgrades.cabin.0": "initial cabin",
-    "building.upgrades.cabin.1": "add kitchen, enable marriage",
-    "building.upgrades.cabin.2": "enable children",
-    "building.upgrades.coop.0": "up to 4 animals; add chickens",
-    "building.upgrades.coop.1": "up to 8 animals; add incubator, dinosaurs, and ducks",
-    "building.upgrades.coop.2": "up to 12 animals; add autofeed and rabbits",
+    "building.slimes.summary": "{{count}} ตัวจากจำนวนสูงสุด {{max}} ตัว",
+    "building.stored-hay.summary-one-silo": "มี {{hayCount}} ฟาง (ความจุสูงสุด: {{maxHay}} ฟาง)",
+    "building.stored-hay.summary-multiple-silos": "มี {{hayCount}} ฟางใน {{siloCount}} ยุ้งฉาง (ความจุสูงสุด: {{maxHay}} ฟาง)",
+    "building.upgrades.barn.0": "มีสัตว์เลี้ยงสูงสุด 4 ตัว, สามารถเลี้ยงวัวได้",
+    "building.upgrades.barn.1": "มีสัตว์เลี้ยงสูงสุด 8 ตัว, สัตว์เลี้ยงสามารถสืบพันธุ์ได้ และสามารถเลี้ยงแพะได้",
+    "building.upgrades.barn.2": "มีสัตว์เลี้ยงสูงสุด 12 ตัว, ให้อาหารอัตโนมัติ, สามารถเลี้ยงหมูและแกะได้",
+    "building.upgrades.cabin.0": "กระท่อมเริ่มต้น",
+    "building.upgrades.cabin.1": "เพิ่มห้องครัว, สามารถแต่งงานได้",
+    "building.upgrades.cabin.2": "สามารถมีลูกได้",
+    "building.upgrades.coop.0": "มีสัตว์เลี้ยงสูงสุด 4 ตัว; สามารถเลี้ยงไก่ได้",
+    "building.upgrades.coop.1": "มีสัตว์เลี้ยงสูงสุด 8 ตัว; สามารถฟักไข่ได้, สามารถเลี้ยงไดโนเสาร์และเป็ดได้",
+    "building.upgrades.coop.2": "มีสัตว์เลี้ยงสูงสุด 12 ตัว; ให้อาหารอัตโนมัติและสามารถเลี้ยงกระต่ายได้",
     "building.water-trough.summary": "{{filled}} of {{max}} water troughs filled",
 
 
@@ -270,15 +270,15 @@
     ** Building > fish pond lookups
     *********/
     // labels
-    "building.fish-pond.population": "Population",
-    "building.fish-pond.drops": "Drops",
-    "building.fish-pond.quests": "Quests",
+    "building.fish-pond.population": "ปลาที่เลี้ยง",
+    "building.fish-pond.drops": "ดรอป",
+    "building.fish-pond.quests": "ภารกิจ",
 
     // values
-    "building.fish-pond.population.empty": "Add a fish to start this pond",
+    "building.fish-pond.population.empty": "โยนปลาลงไปเพื่อเริ่มเลี้ยงปลาได้เลย!",
     "building.fish-pond.population.next-spawn": "New fish spawns {{relativeDate}}",
-    "building.fish-pond.drops.preface": "{{chance}}% chance each day of producing the first matched item:",
-    "building.fish-pond.drops.min-fish": "With {{count}} fish:",
+    "building.fish-pond.drops.preface": "{{chance}}% โอกาสที่ในแต่ละวันจะผลิตไอเทมต่อไปนี้:",
+    "building.fish-pond.drops.min-fish": "ปลา {{count}} ตัว:",
     "building.fish-pond.quests.done": "{{count}} fish",
     "building.fish-pond.quests.incomplete-one": "{{count}} fish: will need {{itemName}}",
     "building.fish-pond.quests.incomplete-random": "{{count}} fish: will need one of {{itemList}}",
