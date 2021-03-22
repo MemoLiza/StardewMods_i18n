@@ -277,7 +277,7 @@
     // values
     "building.fish-pond.population.empty": "โยนปลาลงไปเพื่อเริ่มเลี้ยงปลาได้เลย!",
     "building.fish-pond.population.next-spawn": "ปลาตัวใหม่จะเกิดในอีก {{relativeDate}}",
-    "building.fish-pond.drops.preface": "{{chance}}% โอกาสที่ในแต่ละวันจะผลิตไอเทมต่อไปนี้:",
+    "building.fish-pond.drops.preface": "โอกาส {{chance}}% ที่ในแต่ละวันจะผลิตไอเทมต่อไปนี้:",
     "building.fish-pond.drops.min-fish": "ปลา {{count}} ตัว:",
     "building.fish-pond.quests.done": "ปลา {{count}} ตัว",
     "building.fish-pond.quests.incomplete-one": "ปลา {{count}} ตัว: ต้องการ {{itemName}}",
