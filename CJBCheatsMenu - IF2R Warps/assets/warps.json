@@ -42,8 +42,7 @@
                 "Location": "FarmCave",
                 "Tile": "8, 11",
             },
-			{
-			
+            {
                 "DisplayText": "Grandpa's Shed",
                 "Location": "Farm",
                 "Tile": "144, 34",
