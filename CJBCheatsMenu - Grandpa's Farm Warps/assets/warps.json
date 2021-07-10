@@ -221,7 +221,7 @@
             },
 			{
                 "DisplayText": "ป่าลึกลับ",
-                "Location": "Woods",
+                "Location": "woods",
                 "Tile": "58, 15",
             },
             {
