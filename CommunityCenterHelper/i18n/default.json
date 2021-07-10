@@ -35,7 +35,7 @@
 	
 	// Animal Products
 	"animalProduct": "ผลผลิตจาก{{animal}}{{details}}",
-	"inGoodMood": " (ถ้าค่าความสุขเพียงพอ", // included if a certain level of happiness is required to produce the item
+	"inGoodMood": " (ถ้าค่าความสุขเพียงพอ)", // included if a certain level of happiness is required to produce the item
 	"animalOutside": " (ถ้าเลี้ยงสัตว์ไว้ข้างนอก)", // included if animal must be outside to produce it
 	
 	// Machines
@@ -101,9 +101,10 @@
 	"clearWeeds": "กำจัดวัชพืช",
 	"harvestHay": "เก็บเกี่ยวได้จากต้นหญ้า หรือ {{wheat}}",
 	"trash": "ขยะที่ได้จากการตกปลา, ที่ดักปู, ถึงขยะ",
+	"trashCan": "ขยะจากถังขยะ",
 	
 	// Miscellaneous Sources
-	"luckyShorts": "ห้องของมานี (ในเควส Mayor's Shorts ฤดูร้อน วันที่ 3 )",
+	"luckyShorts": "ห้องของมานี (ในเควส Mayor's Shorts ฤดูร้อน วันที่ 3)",
 	"goldenPumpkin": "ในเขาวงกตของเทศกาลภูติ (ฤดูใบไม้ร่วง 27)",
 	"mermaidPearl": "ได้จากตลาดกลางคืน (ฤดูหวาน 15-17) เรือนางเงือก {{hint}}",
 	"mermaidHint": " (1-5-4-2-3)", // included as hint for how to get the mermaid's pearl, if spoilers are allowed or secret note read
@@ -172,15 +173,24 @@
 	"waterMines60": "ในเหมืองชั้น 60",
 	"waterMines100": "ในเหมืองชั้น 100",
 	"waterSwamp": "ในบึงน้ำของแม่มด",
+	"waterIsland": "บนเกาะขิง",
+	"waterIslandRiver": "ในแม่น้ำบนเกาะขิง",
+	"waterIslandOcean": "ในทะเลบนเกาะขิง",
+	"waterIslandOceanWest": "ในทะเลบนเกาะขิง (ตะวันตก)",
+	"waterIslandCove": "ในอ่าวโจรสลัด",
 	"waterAnglerSpot": "ที่แม่น้ำทางทิศเหนือที่ไกลจากเมือง",
 	"waterCrimsonfishSpot": "จากชายหาดทางทิศตะวันออกของอ่าว/ท่าเรือ",
 	"waterGlacierfishSpot": "ปลายทางใต้สุดของเกาะที่อยู่ตรงกลางป่าซินเดอร์แซป",
 	"waterLegendSpot": "แถวๆ โคนต้นไมในทะเลสาบบนเขา",
+	"waterBlueMoonVineyard": "ในไร่องุ่นบลูมูน", // SVE
+	"waterShearwaterBridge": "ที่สะพานเชียร์วอเทอร์", // SVE
+	"waterForestWest": "ในป่า Cindersap (ตะวันตก)", // SVE
+	"waterAdventurerSummit": "ที่การประชุมสุดยอดนักผจญภัย (กิลด์นักผจญภัย)", // SVE
 	"waterUnknown": "ใน ???",
 	
 	// Water Types (for crab pot suggestions)
 	"waterTypeOcean": "ทะเล",
-	"waterTypeFresh": "แหล่งน้ำสะอาด",
+	"waterTypeFresh": "น้ำจืด",
 	
 	// Shop Names (for buying suggestions)
 	"shopPierre": "ร้านปิแอร์",
@@ -250,7 +260,7 @@
 	"monsterBlueSlime": "สไลม์สีน้ำเงิน",
 	"monsterRedSlime": "สไลม์สีแดง",
 	"monsterPurpleSlime": "สไลม์สีม่วง",
-	"monsterBRPCISlime": "สไลม์สีน้ำเงิน / แดง / ม่วง / ทองแดง / สไลม์เหล็ก",
+	"monsterBRPCISlime": "สไลม์สีน้ำเงิน/แดง/ม่วง/ทองแดง/สไลม์เหล็ก",
 	"monsterUnknown": "???",
 	
 	// Monster Locations (appended after monster names)
@@ -291,7 +301,7 @@
 	"recipeSourceSaloon": "ซาลูน",
 	"recipeSourceTV": "ดูทีวี ({{date}})",
 	"recipeSourceTVAlreadyAired": "ดูทีวี (ฉายซ้ำวันพุธ, หรือ {{date}})",
-	"recipeSourceFriendship": "+ ค่าหัวใจ {{hearts}} ดวงกับ {{person}}", // sent in mail when you have enough hearts
+	"recipeSourceFriendship": "+ ค่าหัวใจ {{hearts}} ดวงกับ {{person}}", // sent in mail or available for purchase when you have enough hearts
 	"recipeSourceHeartEvent": "- เหตุการณ์หัวใจ {{hearts}} ดวงของ {{person}}", // received from heart event specifically
 	"recipeSourceFirstCopper": "ได้รับ {{copperOre}}",
 	"recipeSourceAfterGreenhouse": "ซ่อมเรือนกระจก",
