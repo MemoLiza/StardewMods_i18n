@@ -12,6 +12,7 @@
         "warp-section.mountain",
 		"warp-section.beach",
         "warp-section.desert",
+		"Galdora",
 		"Ginger Island",
     ],
 
@@ -325,7 +326,7 @@
                 "Tile": "3, 4"
             }
         ],
-		"warp-section.Galdora": [
+		"Galdora": [
 		    {
                 "DisplayText": "Castle Village Outpost",
                 "Location": "Custom_CastleVillageOutpost",
