@@ -5,19 +5,19 @@
 */
 {
     "SectionOrder": [
-	    "Immersive Farm 2 Remastered",
-        "Shops",
+	    "¿ÒΓÁâ¤ÃµÁǫÁÒ", // ฟาร์มโครตมหึมา
+        "̃Ò¹ˤÒ", // ร้านค้า
         "warp-section.town",
 		"warp-section.forest",
         "warp-section.mountain",
 		"warp-section.beach",
         "warp-section.desert",
 		"Galdora",
-		"Ginger Island",
+		"à¡ÒÐŢ§", // เกาะขิง
     ],
 
     "Warps": {
-        "Immersive Farm 2 Remastered": [
+        "¿ÒΓÁâ¤ÃµÁǫÁÒ": [ // ฟาร์มโครตมหึมา
             {
                 "DisplayText": "ฟาร์ม",
                 "Location": "Farm",
@@ -34,7 +34,7 @@
                 "Tile": "10, 147",
             },
             {
-                "DisplayText": "Hardwood Glade",
+                "DisplayText": "Hardwood (ที่โล่งในป่า)",
                 "Location": "Farm",
                 "Tile": "147, 148",
             },
@@ -44,12 +44,12 @@
                 "Tile": "8, 11",
             },
             {
-                "DisplayText": "Grandpa's Shed",
+                "DisplayText": "กระท่อมคุณปู่",
                 "Location": "Farm",
                 "Tile": "144, 34",
             }
         ],
-        "Shops": [
+        "̃Ò¹ˤÒ": [ // ร้านค้า
             {
                 "DisplayText": "ร้านช่างไม้โรบิน",
                 "Location": "Mountain",
@@ -348,7 +348,7 @@
                 "Tile": "10, 12",
             },
 		],
-		"Ginger Island": [
+		"à¡ÒÐŢ§": [ // เกาะขิง
             {
                 "DisplayText": "warp.island-farm",
                 "Location": "IslandWest",
