@@ -5,31 +5,31 @@
 */
 {
     "SectionOrder": [
-	    "Farm",
-        "Shops",
+	    "¿ÒΓÁ", // ฟาร์ม
+        "̃Ò¹ˤÒ", // ร้านค้า
         "warp-section.town",
 		"warp-section.forest",
         "warp-section.mountain",
 		"warp-section.beach",
         "warp-section.desert",
 		"Galdora",
-		"Ginger Island",
+		"à¡ÒÐŢ§", // เกาะขิง
     ],
 
     "Warps": {
-        "Farm": [
+        "¿ÒΓÁ": [ // ฟาร์ม
             {
                 "DisplayText": "ฟาร์ม",
                 "Location": "Farm",
                 "Tile": "64, 15",
             },
             {
-                "DisplayText": "Grandpa's Shed",
+                "DisplayText": "กระท่อมคุณปู่",
                 "Location": "Custom_GrandpasShedOutside",
                 "Tile": "22, 17",
             }
         ],
-        "Shops": [
+        "̃Ò¹ˤÒ": [ // ร้านค้า
             {
                 "DisplayText": "ร้านช่างไม้โรบิน",
                 "Location": "Mountain",
@@ -328,7 +328,7 @@
                 "Tile": "10, 12",
             },
 		],
-		"Ginger Island": [
+		"à¡ÒÐŢ§": [ // เกาะขิง
             {
                 "DisplayText": "warp.island-farm",
                 "Location": "IslandWest",
