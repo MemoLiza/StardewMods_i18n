@@ -12,7 +12,6 @@
         "warp-section.mountain",
 		"warp-section.beach",
         "warp-section.desert",
-		"Galdora",
 		"à¡ÒÐŢ§", // เกาะขิง
     ],
 
@@ -210,9 +209,9 @@
                 "Tile": "34, 96",
             },
             {
-                "DisplayText": "Sprite Spring",
-                "Location": "Custom_SpriteSpring",
-                "Tile": "20, 32",
+                "DisplayText": "สไปรท์สปริง",
+                "Location": "Custom_SpriteSpring2",
+                "Tile": "16, 23",
             },
             {
                 "DisplayText": "ตะแกรงระบายน้ำ",
