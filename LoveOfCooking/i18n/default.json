@@ -35,32 +35,32 @@
 	"config.others_label": "Others",
 
 	// General strings
-	"world.range_gus.rejected": "You're not good enough friends with Gus to use the Cooking Range.",
-	"world.range_npc.rejected": "You're not good enough friends with {{name}} to use their kitchen.",
-	"world.cooking_craftable.rejected_indoors": "Can't be placed indoors.",
+	"world.range_gus.rejected": "คุณไม่สนิทกับกัสมากพอ ที่จะใช้เตาปรุงอาหารได้",
+	"world.range_npc.rejected": "คุณไม่สนิทกับ {{name}} มากพอ ที่จะใช้ครัวของเขาได้",
+	"world.cooking_craftable.rejected_indoors": "ไม่สามารถวางไว้ข้างนอกได้",
 
-	"menu.cooking_equipment.name": "Frying Pan",
-	"menu.cooking_equipment.description": "When cooking, allows the use of up to {{level}} ingredients.",
+	"menu.cooking_equipment.name": "กระทะทอด",
+	"menu.cooking_equipment.description": "สามารถทำอาหาร ด้วยวัตถุดิบ {{level}}",
 
 	// Cooking menu
-	"menu.cooking_station.no_cookbook": "You don't have a cookbook.",
-	"menu.cooking_station.locked": "Someone else is cooking here.",
-	"menu.cooking_station.none": "No cooking station nearby.",
-	"menu.cooking_station.busy": "Something's already cooking here.",
-	"menu.cooking_station.done": "The {{recipe}} is ready!",
-	"menu.cooking_station.done_improv": "You wrote the recipe down in Mom's Cookbook.",
+	"menu.cooking_station.no_cookbook": "คุณไม่มีตำราอาหาร",
+	"menu.cooking_station.locked": "มีคนอื่น กำลังทำอาหารอยู่",
+	"menu.cooking_station.none": "ไม่มีครัวอยู่ในบริเวณนี้",
+	"menu.cooking_station.busy": "มีอาหารที่ปรุงเสร็จแล้วอยู่ในนี้",
+	"menu.cooking_station.done": "เมนู {{recipe}} พร้อมแล้ว!",
+	"menu.cooking_station.done_improv": "คุณได้เขียนเมนูลงไปใน ตำราอาหารของคุณแม่",
 
 	"menu.cooking_recipe.title_unknown": "???",
-	"menu.cooking_recipe.notes_unknown": "You've not eaten this recipe.",
+	"menu.cooking_recipe.notes_unknown": "คุณยังไม่เคยกินเมนูนี้มาก่อน",
 	"menu.cooking_recipe.ingredients_label": "Ingredients:",
 	"menu.cooking_recipe.notes_label": "Notes:",
-	"menu.cooking_recipe.time_label": "Cooking time:",
-	"menu.cooking_recipe.time_value": "{{duration}} min",
-	"menu.cooking_recipe.search_label": "Search",
-	"menu.cooking_recipe.favourite_label": "Favourite",
-	"menu.cooking_recipe.quantity_label": "How many?",
-	"menu.cooking_recipe.which_label": "Which would you like to make?",
-	"menu.cooking_recipe.autofill_label": "Auto-add ingredients",
+	"menu.cooking_recipe.time_label": "ระยะเวลาในการปรุง:",
+	"menu.cooking_recipe.time_value": "{{duration}} นาที",
+	"menu.cooking_recipe.search_label": "ค้นหา",
+	"menu.cooking_recipe.favourite_label": "จานโปรด",
+	"menu.cooking_recipe.quantity_label": "จะทำกี่จาน?",
+	"menu.cooking_recipe.which_label": "คุณอยากจะปรุงเมนูไหนดีล่ะ?",
+	"menu.cooking_recipe.autofill_label": "เพิ่มวัตถุดิบอัตโนมัติ",
 
 	"menu.cooking_recipe.buff.0": "Farming",
 	"menu.cooking_recipe.buff.1": "Fishing",
@@ -76,59 +76,59 @@
 	"menu.cooking_recipe.buff.11": "Attack",
 	"menu.cooking_recipe.buff.12": "Cooking",
 
-	"menu.cooking_search.order_label": "Ascending/descending order",
-	"menu.cooking_search.view.list": "View list",
-	"menu.cooking_search.view.grid": "View icons",
-	"menu.cooking_search.filter_label": "Filter recipes",
-	"menu.cooking_search.filter.1": "Alphabetical order",
-	"menu.cooking_search.filter.2": "Energy restored",
-	"menu.cooking_search.filter.3": "Gold value",
-	"menu.cooking_search.filter.4": "Recipes with buffs",
-	"menu.cooking_search.filter.4_alt": "Recipes with known buffs",
-	"menu.cooking_search.filter.5": "Recipes not yet cooked",
-	"menu.cooking_search.filter.6": "Recipes ready to cook",
-	"menu.cooking_search.filter.7": "Favourite recipes",
-	"menu.cooking_search.none_label": "No recipes found.",
+	"menu.cooking_search.order_label": "เรียงรายการจากบนลงล่าง/ล่างขึ้นบน",
+	"menu.cooking_search.view.list": "ดูรายการ",
+	"menu.cooking_search.view.grid": "ดูไอค่อน",
+	"menu.cooking_search.filter_label": "ตัวกรองเมนูอาหาร",
+	"menu.cooking_search.filter.1": "เรียงตามตัวอักษร",
+	"menu.cooking_search.filter.2": "เรียงตามการฟื้นฟูพลัง",
+	"menu.cooking_search.filter.3": "เรียงตามราคา",
+	"menu.cooking_search.filter.4": "เมนูที่มีค่าบัฟ",
+	"menu.cooking_search.filter.4_alt": "เมนูที่รู้ค่าบัฟ",
+	"menu.cooking_search.filter.5": "เมนูที่ยังไม่ยังเคยปรุง",
+	"menu.cooking_search.filter.6": "เมนูที่พร้อมปรุง",
+	"menu.cooking_search.filter.7": "เมนูโปรด",
+	"menu.cooking_search.none_label": "ไม่พบเมนู",
 
-	"mail.cookbook_unlocked": "Dear @,^  I was looking through some old things last night, and found just the thing for you - the old family cookbook! ^  It's missing a few pages, but I'm sure you'll make do. Take care honey, and remember to eat well! ^   Love, Mom.[#]From Mom",
-	"mail.cookbook_unlocked.after": "You received Mom's Cookbook. Recipes you learn will be saved here to cook at kitchens in town.",
+	"mail.cookbook_unlocked": "ถึง @ ลูกรัก^  แม่ค้นดูของเก่าๆ ที่เก็บไว้เมื่อคืนนี้ แล้วก็เจอสิ่งนี้ สำหรับลูก - ตำราอาหารเล่มเก่าของครอบครัวเรา! ^  มีบางหน้าที่มันขาดหายไป แต่แม่เชื่อว่า ลูกสามารถทำมันได้อยู่แล้ว ดูแลตัวเองด้วยนะ และอย่าลืมกินของที่มีประโยชน์นะจ๊ะ! ^   รักลูกนะ จากแม่[#]จากแม่",
+	"mail.cookbook_unlocked.after": "คุณได้รับ ตำราอาหารของคุณแม่ เมนูที่คุณได้เรียนรู้ จะถูกบันทึกลงในนี้ และสามารถปรุงในเมือง ตรงไหนก็ได้ที่มีครัว",
 
 	// Cooking skill
-	"menu.cooking_skill.levelupbonus": "Can cook recipes with up to {{Number}} ingredients",
-	"menu.cooking_skill.levelupbonus.2": "You can now brew Nettle Tea.",
-	//"menu.cooking_skill.levelupbonus.3": "You can now craft {{Name}}.",
-	"menu.cooking_skill.levelup_burn": "Food burns {{Number}}% less often",
+	"menu.cooking_skill.levelupbonus": "สามารถปรุงอาหาร ที่มีส่วนประกอบถึง {{Number}} ชนิด",
+	"menu.cooking_skill.levelupbonus.2": "ตอนนี้คุณสามารถชง ชาใบตำแย (Nettle Tea) ได้",
+	//"menu.cooking_skill.levelupbonus.3": "ตอนนี้คุณสามารถปรุง {{Name}} ได้",
+	"menu.cooking_skill.levelup_burn": "โอกาสทำอาหารไหม้ลดลง {{Number}}%",
 
 	// Tier 1:
 	// Path 1: Cooking
-	"menu.cooking_skill.tier1_path1.name": "Sous Chef",
-	"menu.cooking_skill.tier1_path1.description": "Cooking oil further improves the quality of recipes.",
+	"menu.cooking_skill.tier1_path1.name": "ผู้ช่วยเชฟ (Sous Chef)",
+	"menu.cooking_skill.tier1_path1.description": "น้ำมันปรุงอาหาร จะช่วยเพิ่มคุณภาพ ในเมนูนั้นๆ ในดียิ่งขึ้น",
 	// Path 2: Eating (CONFIG: Food restores over time)
-	"menu.cooking_skill.tier1_path2.name": "Quick Eater",
-	"menu.cooking_skill.tier1_path2.description": "Food restores your energy more quickly.",
+	"menu.cooking_skill.tier1_path2.name": "นักกินเร็ว (Quick Eater)",
+	"menu.cooking_skill.tier1_path2.description": "อาหารจะเพิ่มค่าพลังกายเร็วขึ้น",
 	// Path 2: Eating (CONFIG: Food restores instantly)
-	"menu.cooking_skill.tier1_path2_alt.name": "Big Eater",
-	"menu.cooking_skill.tier1_path2_alt.description": "Cooked food restores {{RestorationAltValue}}% more.",
+	"menu.cooking_skill.tier1_path2_alt.name": "นักกินแหลก (Big Eater)",
+	"menu.cooking_skill.tier1_path2_alt.description": "อาหารจะเพิ่มค่าฟื้นฟูขึ้น {{RestorationAltValue}}%",
 
 	// Tier 2: Path 1
 	// Choice A: Gifting
-	"menu.cooking_skill.tier2_path1a.name": "Head Chef",
-	"menu.cooking_skill.tier2_path1a.description": "Cooked foods given as gifts befriend quicker.",
+	"menu.cooking_skill.tier2_path1a.name": "เชฟใหญ่ (Head Chef)",
+	"menu.cooking_skill.tier2_path1a.description": "อาหารที่นำไปมอบให้เป็นของขวัญ จะเพิ่มค่ามิตรภาพเร็วขึ้น",
 	// Choice B: Selling
-	"menu.cooking_skill.tier2_path1b.name": "Five Star Cook",
-	"menu.cooking_skill.tier2_path1b.description": "Cooked foods worth {{SaleValue}}% more.",
+	"menu.cooking_skill.tier2_path1b.name": "อาหาร 5 ดาว (Five Star Cook)",
+	"menu.cooking_skill.tier2_path1b.description": "อาหารมีราคาขายสูงขึ้นจากเดิม {{SaleValue}}%",
 
 	// Tier 2: Path B
 	// Choice A: Crafting
-	"menu.cooking_skill.tier2_path2a.name": "Gourmet",
-	"menu.cooking_skill.tier2_path2a.description": "Chance to craft an extra portion when cooking.",
+	"menu.cooking_skill.tier2_path2a.name": "กูรเม่ต์ (Gourmet)",
+	"menu.cooking_skill.tier2_path2a.description": "เพิ่มโอกาสที่จะได้รับอาหาร เพิ่มอีกจานเมื่อทำอาหาร",
 	// Choice B: Healing
-	"menu.cooking_skill.tier2_path2b.name": "Glutton",
-	"menu.cooking_skill.tier2_path2b.description": "Buff duration from food and drinks increased when at full energy.",
+	"menu.cooking_skill.tier2_path2b.name": "คนตะกละ (Glutton)",
+	"menu.cooking_skill.tier2_path2b.description": "เพิ่มระยะเวลาแสดงผลของบัฟ จากอาหารและเครื่องดื่ม เมื่อมีค่าพลังงานเต็มอยู่ขณะนั้น",
 
 	// Cooking ingredients descriptions
-	"item.oil.description": "All purpose cooking oil. Improves the quality of a dish.",
-	"item.truffleoil.description": "A gourmet cooking ingredient. Greatly enhances the quality of a dish.",
+	"item.oil.description": "น้ำมันที่ใช้ประกอบอาหาร ได้อเนกประสงค์ ช่วยเพิ่มคุณภาพของอาหารได้",
+	"item.truffleoil.description": "วัตถุดิบปรุงอาหารระดับกรูเม่ต์ เพิ่มคุณภาพของอาหารได้อย่างมาก",
 	"item.fruit.label": "Fruit (Any)",
 	"item.flower.label": "Flower (Any)",
 	"item.vegetable.label": "Vegetable (Any)",
@@ -141,27 +141,27 @@
 	"item.gem.label": "Gems (Any)",
 
 	// Kebab item interactions
-	"buff.kebab.quality_worst": "Rotten ",
-	"buff.kebab.quality_best": "Delicious ",
-	"buff.kebab.inspect": "{{quality}}Kebab",
-	"item.kebab.worst": "That was a pretty rotten kebab! You feel quite ill.",
-	"item.kebab.bad": "That kebab wasn't so good at all...",
-	"item.kebab.best": "That kebab really hit the spot! You feel much better.",
+	"buff.kebab.quality_worst": "บูดๆ ",
+	"buff.kebab.quality_best": "แสนอร่อย ",
+	"buff.kebab.inspect": "เคบับ {{quality}}",
+	"item.kebab.worst": "เคบับนี่เกือบจะบูดอยู่แล้ว! คุณรู้สึกไม่ค่อยสบาย",
+	"item.kebab.bad": "เคบับนี่ ไม่ค่อยจะดีสักเท่าไหร่...",
+	"item.kebab.best": "เคบับนี่ คือแบบเด็ดสะระตี่! คุณรู้สึกรื่นรมณ์",
 
 	// Other world interactions
-	"buff.nettles.inspect": "Stung by nettles!",
+	"buff.nettles.inspect": "อรั่ก คันขนตำแย!",
 
-	"world.fisherman.talk_1": "Nice night for a fish, eh?$b#Here, kid. This one was a good catch.[{{id}}]",
-	"world.fisherman.talk_2": "You ever seen a river troll, kid? Heh heh...$b#Ahh, you're too old for fairy tales.",
-	"world.fisherman.talk_3": "There's no good catches with those travelling market folks in the bay...",
+	"world.fisherman.talk_1": "เป็นคืนที่ดี สำหรับการตกปลาใช่มั้ยละ หื้ม?$b#เอานี่ เจ้าหนู ตัวนี้จับมาอย่างดีเลยล่ะ [{{id}}]",
+	"world.fisherman.talk_2": "เคยเห็นโทรลล์แม่น้ำมั้ยล่ะ เจ้าหนู? แฮะ แฮะ...$b#อ่าาา เธอแก่เกินไปที่จะเชื่อ เรื่องเทพนิยายแล้วสินะ",
+	"world.fisherman.talk_3": "ไม่มีเจ้าตัวเด็ดๆ จากพวกพ่อค้าเร่ แถวปากอ่าวหรอกนะ...",
 
 	// Community Centre edits when using the Cooking bundle
-	"world.community_centre.kitchen": "Kitchen",
-	"world.community_centre.reward": "Cooking stuff",
-	"world.community_centre.bundle.1": "Baker's",
-	"world.community_centre.bundle.2": "Diner's",
-	"world.community_centre.bundle.3": "Picnicker's",
-	"world.community_centre.newjunimoline": "To show our gratitude... We'll tidy up as you go.",
+	"world.community_centre.kitchen": "ห้องครัว",
+	"world.community_centre.reward": "อุปกรณ์ทำครัว",
+	"world.community_centre.bundle.1": "เตาอบ",
+	"world.community_centre.bundle.2": "มื้อค่ำ",
+	"world.community_centre.bundle.3": "นักปิกนิก",
+	"world.community_centre.newjunimoline": "เพื่อเป็นการขอบคุณจากเรา... เราจะจัดการให้เรียบร้อย เมื่อคุณให้ในสิ่งเราต้องการ",
 
 	// Notifications strings
 	"notification.icon.inspect": "Love of Cooking Notices",
@@ -253,7 +253,7 @@
 	// recipes
 	"item.admiralpie.description": "Whole fish stuffed into a saucy pie.",
 	"item.applepie.description": "Smells of fresh cooking apples and cinnamon spice.",
-	"item.bakedpotato.description": "A humble potato, stuffed with mash and cheese.",
+	"item. .description": "A humble potato, stuffed with mash and cheese.",
 	"item.burger.description": "It's a mix of bitter and sweet flavours in a shocking pink look.",
 	"item.waffles.description": "Whole grain waffles with a blueberry drizzle.",
 	"item.burrito.description": "A wrap of all things nice.",
